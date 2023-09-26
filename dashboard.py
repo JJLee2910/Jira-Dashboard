@@ -88,7 +88,8 @@ def update_feature_graph(selectedData):
 
         fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
                           marker_line_width=1.5, opacity=0.6,
-                          texttemplate='%{y}', textposition='outside')
+                          texttemplate='%{y}', textposition='outside',
+                          width = 400)
 
 
         fig.update_layout(clickmode='event+select')
