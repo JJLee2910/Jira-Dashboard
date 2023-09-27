@@ -1,4 +1,4 @@
-Unnamed: 0,Issue key,Issue id,Status,Creator,Summary,Test Type,Feature Type,Defect Type,Modified_Summary
+Unnamed: 0,Issue key,Issue id,Status,Creator,Summary,Test Type,Feature Type,Defect Type,Modified Summary
 0,INSBBOS-550,357651,Closed,463021,[QUEST-6701/QUEST-8449/INSBBOS-550] #Defect 4: Jenkin Job could not be found for Motor Others,UAT,INSBBOS-318,Program Error,QUEST-6701
 1,INSBFOS-1404,367678,Closed,463021,[QUEST-11345/INSBFOS-1404] #Defect 1: Diamond could not issue cover note,Operation Readiness Test (ORT),INSBFOS-1213,Program Error,QUEST-11345
 2,INSBBOS-546,353667,Closed,463021,[QUEST-6701/QUEST-8449/INSBBOS-546] #Defect 2: Cover note generated in Diamond failed to integrate to GIS (CVC),UAT,INSBBOS-318,Program Error,QUEST-6701
