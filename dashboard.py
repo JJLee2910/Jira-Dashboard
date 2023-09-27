@@ -155,7 +155,7 @@ def update_test_type_graph(selectedData):
 
             # Calculate the frequency of each test type within the selected defect type
             test_type_counts = filtered_data['Test Type'].value_counts()
-            fig = px.bar(test_type_counts, x=test_type_counts.index, y=test_type_counts.values,
+            fig = px.bar(test_type_counts, x=list(test_type_counts.index), y=test_type_counts.values,
                          title=f"Test Type Distribution for Defect Type: {selected_defect_type}",
                          labels={'x': 'Test Type', 'y': 'Count'},
                          template='plotly_white')
