@@ -15,6 +15,7 @@ app.layout = html.Div([
     dcc.Graph(id='defect-distribution-graph'),
     dcc.Graph(id='feature-distribution-graph'),
     dcc.Graph(id='modified-summary-distribution-graph'),
+    dcc.Graph(id='test-type-distribution-graph'),
     html.Div(id='selected-category'),
 ])
 
@@ -37,14 +38,14 @@ def update_defect_graph(selectedData):
 
             # Calculate the frequency of the selected category
             category_counts = filtered_data['Defect Type'].value_counts()
-            fig = px.bar(category_counts, x=category_counts.index, y=category_counts.values,
+            fig = px.bar(category_counts, x=list(category_counts.index), y=category_counts.values,
                          title=f"Details for Defect Type: {selected_category}",
                          labels={'x': 'Defect Type', 'y': 'Count'},
                          template='plotly_white')
         else:
             # Calculate the frequency of each defect type
             defect_counts = df['Defect Type'].value_counts()
-            fig = px.bar(defect_counts, x=defect_counts.index, y=defect_counts.values,
+            fig = px.bar(defect_counts, x=list(defect_counts.index), y=defect_counts.values,
                          title="Defect Type Distribution",
                          labels={'x': 'Defect Type', 'y': 'Count'},
                          template='plotly_white')
@@ -78,7 +79,7 @@ def update_summary_graph(selectedData):
 
             # Calculate the frequency of each feature type within the selected Modified Summary
             feature_counts = filtered_data['Modified Summary'].value_counts()
-            fig = px.bar(feature_counts, x=feature_counts.index, y=feature_counts.values,
+            fig = px.bar(feature_counts, x=list(feature_counts.index), y=feature_counts.values,
                          title=f"Modified Summary Distribution for Defect Type: {selected_category}",
                          labels={'x': 'Modified Summary', 'y': 'Count'},
                          template='plotly_white')
@@ -116,7 +117,7 @@ def update_modified_summary_graph(selectedData):
 
             # Calculate the frequency of each defect type within the selected Modified Summary
             defect_counts = filtered_data['Feature Type'].value_counts()
-            fig = px.bar(defect_counts, x=defect_counts.index, y=defect_counts.values,
+            fig = px.bar(defect_counts, x=list(defect_counts.index), y=defect_counts.values,
                          title=f"Feature Type Distribution for Modified Summary: {selected_feature}",
                          labels={'x': 'Feature Type', 'y': 'Count'},
                          template='plotly_white')
@@ -128,6 +129,44 @@ def update_modified_summary_graph(selectedData):
         fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
                         marker_line_width=1.5, opacity=0.6,
                         texttemplate='%{y}', textposition='outside')
+
+        fig.update_layout(clickmode='event+select')
+
+        return fig
+
+    except Exception as e:
+        return {}
+    
+# Define callback to update the Test Type drill-down graph
+@app.callback(
+    Output('test-type-distribution-graph', 'figure'),
+    Input('defect-distribution-graph', 'selectedData')
+)
+def update_test_type_graph(selectedData):
+    selected_defect_type = ""
+
+    try:
+        if selectedData is not None:
+            # Get the selected defect type
+            selected_defect_type = selectedData['points'][0]['x']
+
+            # Filter data for the selected defect type
+            filtered_data = df[df['Defect Type'] == selected_defect_type]
+
+            # Calculate the frequency of each test type within the selected defect type
+            test_type_counts = filtered_data['Test Type'].value_counts()
+            fig = px.bar(test_type_counts, x=test_type_counts.index, y=test_type_counts.values,
+                         title=f"Test Type Distribution for Defect Type: {selected_defect_type}",
+                         labels={'x': 'Test Type', 'y': 'Count'},
+                         template='plotly_white')
+
+        else:
+            # If no Defect Type is selected, show an empty graph
+            fig = go.Figure()
+
+        fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
+                          marker_line_width=1.5, opacity=0.6,
+                          texttemplate='%{y}', textposition='outside')
 
         fig.update_layout(clickmode='event+select')
 
