@@ -9,6 +9,8 @@ df = pd.read_csv('modified_new.csv')
 
 # Initialize the Dash app
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
+server = app.server
+
 
 # Define the layout of the app
 app.layout = html.Div([
