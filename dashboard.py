@@ -4,6 +4,8 @@ import dash
 from dash import dcc, html, Input, Output
 import plotly.graph_objs as go
 
+print(pd.__version__)
+
 # Read data from Excel file
 df = pd.read_csv('modified_new.csv')
 
