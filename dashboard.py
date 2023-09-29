@@ -104,33 +104,35 @@ def update_summary_graph(selectedData):
 # Define callback to update the Modified Summary graph based on Feature Type
 @app.callback(
     Output('modified-summary-distribution-graph', 'figure'),
-    Input('feature-distribution-graph', 'selectedData')
+    Input('feature-distribution-graph', 'selectedData'),
+    Input('defect-distribution-graph', 'selectedData')
 )
-def update_modified_summary_graph(selectedData):
-    selected_feature = ""
+def update_modified_summary_graph(selectedFeatureData, selectedDefectData):
+    global selected_summary
+    global selected_defect
 
     try:
-        if selectedData is not None:
+        if selectedFeatureData is not None:
             # Get the selected feature (Modified Summary)
-            selected_feature = selectedData['points'][0]['x']
+            selected_summary = selectedFeatureData['points'][0]['x']
 
-            # Filter data for the selected feature
-            filtered_data = df[df['Modified Summary'] == selected_feature]
+        if selectedDefectData is not None:
+            # Get the selected defect type
+            selected_defect = selectedDefectData['points'][0]['x']
 
-            # Calculate the frequency of each defect type within the selected Modified Summary
-            defect_counts = filtered_data['Feature Type'].value_counts()
-            fig = px.bar(defect_counts, x=list(defect_counts.index), y=defect_counts.values,
-                         title=f"Feature Type Distribution for Modified Summary: {selected_feature}",
-                         labels={'x': 'Feature Type', 'y': 'Count'},
-                         template='plotly_white')
+        # Filter data based on both selected defect and summary
+        filtered_data = df[(df['Modified Summary'] == selected_summary) & (df['Defect Type'] == selected_defect)]
 
-        else:
-            # If no Feature Type is selected, show an empty graph
-            fig = go.Figure()
+        # Calculate the frequency of each feature type within the selected Modified Summary and Defect Type
+        feature_counts = filtered_data['Feature Type'].value_counts()
+        fig = px.bar(feature_counts, x=list(feature_counts.index), y=feature_counts.values,
+                     title=f"Feature Type Distribution for Modified Summary: {selected_summary} and Defect Type: {selected_defect}",
+                     labels={'x': 'Feature Type', 'y': 'Count'},
+                     template='plotly_white')
 
         fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
-                        marker_line_width=1.5, opacity=0.6,
-                        texttemplate='%{y}', textposition='outside')
+                          marker_line_width=1.5, opacity=0.6,
+                          texttemplate='%{y}', textposition='outside')
 
         fig.update_layout(clickmode='event+select')
 
@@ -138,6 +140,7 @@ def update_modified_summary_graph(selectedData):
 
     except Exception as e:
         return {}
+
     
 # Define callback to update the Test Type drill-down graph
 @app.callback(
