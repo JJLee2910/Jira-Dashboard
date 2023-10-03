@@ -183,35 +183,36 @@ def update_test_type_graph(selectedData):
     
 @app.callback(
     Output('creator-distribution-graph', 'figure'),
-    Input('defect-distribution-graph','selectedData')
+    Input('defect-distribution-graph', 'selectedData')
 )
 def update_creator_graph(selectedData):
     defect_selected = ""
 
     try:
         if selectedData is not None:
-            defect_selected = selectedData['point'][0]['x']
+            defect_selected = selectedData['points'][0]['x']
 
-            filtered_data = df[df[df['Defect Type'] == defect_selected]]
+            filtered_data = df[df['Defect Type'] == defect_selected]
 
-            test_type_counts = filtered_data['Creator'].value_counts()
-            fig = px.bar(test_type_counts, x=list(test_type_counts.index), y=test_type_counts.values,
+            creator_counts = filtered_data['Creator'].value_counts()
+            fig = px.bar(creator_counts, x=list(creator_counts.index), y=creator_counts.values,
                          title=f"Distribution of Issue Creator by Defect Type: {defect_selected}",
                          labels={'x': 'Creator', 'y': 'Count'},
                          template='plotly_white')
         else:
             fig = go.Figure()
-        
+
         fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
                           marker_line_width=1.5, opacity=0.6,
                           texttemplate='%{y}', textposition='outside')
-        
+
         fig.update_layout(clickmode='event+select')
 
         return fig
-    
+
     except Exception as e:
         return {}
+
     
 # Run the app
 if __name__ == '__main__':
