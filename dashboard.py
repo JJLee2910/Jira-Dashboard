@@ -18,6 +18,7 @@ app.layout = html.Div([
     dcc.Graph(id='feature-distribution-graph'),
     dcc.Graph(id='modified-summary-distribution-graph'),
     dcc.Graph(id='test-type-distribution-graph'),
+    dcc.Graph(id='creator-distribution-graph'),
     html.Div(id='selected-category'),
 ])
 
@@ -179,7 +180,39 @@ def update_test_type_graph(selectedData):
 
     except Exception as e:
         return {}
+    
+@app.callback(
+    Output('creator-distribution-graph', 'figure'),
+    Input('defect-distribution-graph','selected-data')
+)
+def update_creator_graph(selectedData):
+    defect_selected = ""
 
+    try:
+        if selectedData is not None:
+            defect_selected = selectedData['point'][0]['x']
+
+            filtered_data = df[df[df['Defect Type'] == defect_selected]]
+
+            test_type_counts = filtered_data['Creator'].value_counts()
+            fig = px.bar(test_type_counts, x=list(test_type_counts.index), y=test_type_counts.values,
+                         title=f"Distribution of Issue Creator by Defect Type: {defect_selected}",
+                         labels={'x': 'Creator', 'y': 'Count'},
+                         template='plotly_white')
+        else:
+            fig = go.Figure()
+        
+        fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
+                          marker_line_width=1.5, opacity=0.6,
+                          texttemplate='%{y}', textposition='outside')
+        
+        fig.update_layout(clickmode='event+select')
+
+        return fig
+    
+    except Exception as e:
+        return {}
+    
 # Run the app
 if __name__ == '__main__':
     app.run_server(debug=True, use_reloader=False)
