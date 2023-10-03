@@ -3,14 +3,70 @@ import plotly.express as px
 import dash
 from dash import dcc, html, Input, Output
 import plotly.graph_objs as go
+import re
 
-# Read data from Excel file
-df = pd.read_csv('modified_new.csv')
+def clean_and_preprocess(file_path):
+    file = pd.read_csv(file_path)
+
+    # Drop unnecessary columns
+    drop_columns = [
+        'Created', 'Updated', 'Assignee', 'Custom field (Closed Date)',
+        'Custom field (Implementation Planned End Date)',
+        'Custom field (Implementation Planned Start Date)',
+        'Custom field (How It Happened? (Root Cause))',
+        'Custom field (How I Fixed (Resolution Provided))',
+        'Custom field (Environment)'
+    ]
+    data = file.drop(drop_columns, axis=1, inplace=True)
+
+    # Fill in the NA values with "TBD" in all columns
+    for col in data.columns:
+        data[col].fillna("TBD", inplace=True)
+
+    # Rename columns
+    column_mapping = {
+        'Custom field (Test Type)': 'Test Type',
+        'Custom field (Feature Link)': 'Feature Type',
+        'Custom field (Defect Type)': 'Defect Type'
+    }
+
+    data.rename(columns=column_mapping, inplace=True)
+
+    # Extract and modify data from the "Summary" column
+    pattern = r'\[(.*?)\]'
+    modified_summary = []
+
+    for index, row in data.iterrows():
+        summary_text = row['Summary']
+        matches = re.finditer(pattern, summary_text)
+
+        if matches:
+            parts = matches[0].split('/')
+            if parts and parts[0].startswith('Q'):
+                quest = parts[0].split('|')[0]
+                modified_summary.append(quest)
+            else:
+                modified_summary.append("TBD")
+
+        else:
+            modified_summary.append("TBD")
+
+    data['Modified Summary'] = modified_summary
+
+    # Export to new csv file
+    cleaned_data = 'modoified_new.csv'
+    data.to_csv(cleaned_data, index=False, encoding='utf-8')    
+
+    return cleaned_data
+
+cleaned_data = clean_and_preprocess('data.csv')
 
 # Initialize the Dash app
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
 server = app.server
 
+# Read data from cleaned file
+df = pd.read_csv('modified_new.csv')
 
 # Define the layout of the app
 app.layout = html.Div([
