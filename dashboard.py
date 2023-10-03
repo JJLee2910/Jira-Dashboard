@@ -116,16 +116,10 @@ def update_modified_summary_graph(selectedFeatureData, selectedDefectData):
         if selectedFeatureData is not None:
             # Get the selected feature (Modified Summary)
             selected_summary = selectedFeatureData['points'][0]['x']
-        
-        else:
-            fig = go.Figure()
 
         if selectedDefectData is not None:
             # Get the selected defect type
             selected_defect = selectedDefectData['points'][0]['x']
-
-        else:
-            fig = go.Figure()
 
         # Filter data based on both selected defect and summary
         filtered_data = df[(df['Modified Summary'] == selected_summary) & (df['Defect Type'] == selected_defect)]
@@ -189,7 +183,7 @@ def update_test_type_graph(selectedData):
     
 @app.callback(
     Output('creator-distribution-graph', 'figure'),
-    Input('defect-distribution-graph','selected-data')
+    Input('defect-distribution-graph','selectedData')
 )
 def update_creator_graph(selectedData):
     defect_selected = ""
