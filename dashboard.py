@@ -142,8 +142,48 @@ def update_feature_graph(selectedFeatureData, selectedDefectData):
     except Exception as e:
         return {}
 
+# Callback to update the Defect Type graph based on previous 3 graph
+@app.callback(
+    Output('defect-distribution-graph', 'figure'),
+    Input('feature-type-distribution-graph', 'selectedData'),
+    Input('modified-summary-distribution-graph', 'selectedData'),
+    Input('test-type-distribution-graph', 'selectedData')
+)
+def update_defect_graph(selectedFeatureData, selectedModifiedSummaryData, selectedTestTypeData):
+    try:
+        # filter the data based on the selected data from 3 graphs
+        filteredData = df.copy() # start with a copy of the data frame
 
+        if selectedFeatureData:
+            selected_feature = selectedFeatureData['points'][0]['x']
+            filteredData = filteredData[filteredData['Feature Type']==selected_feature]
+        
+        if selectedModifiedSummaryData:
+            selected_summary = selectedModifiedSummaryData['points'][0]['x']
+            filteredData = filteredData[filteredData['Modified Summary'] == selected_summary]
+        
+        if selectedTestTypeData:
+            selected_test = selectedTestTypeData['points'][0]['x']
+            filteredData = filteredData[filteredData['Test Type'] == selected_test]
 
+        # calculate the frequency of the selected defect type
+        defect_counts = filteredData['Defect Type'].value_counts()
+
+        # Create the bar chart for the Defect Type distribution
+        fig = px.bar(defect_counts, x=list(defect_counts.index), y=defect_counts.values,
+                    title="Defect Type Distribution",
+                    labels={'x': 'Defect Type', 'y': 'Count'},
+                    template='plotly_white')
+        
+        fig.update_traces(marker_color='rgb(158,202,225)', marker_line_color='rgb(8,48,107)',
+                        marker_line_width=1.5, opacity=0.6,
+                        texttemplate='%{y}', textposition='outside')
+        
+        fig.update_layout(clickmode='event+select')
+        
+        return fig
+    except Exception as e:
+        return {}
     
 # Run the app
 if __name__ == '__main__':
