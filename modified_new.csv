@@ -1,268 +1,274 @@
-Unnamed: 0,Issue key,Issue id,Status,Creator,Defect Type,Feature Type,Summary,Test Type,Modified Summary
-0,INSBFOS-1641,404745,New,C006808,Program Error,INSBFOS-861,[QUEST-7321][INSBFOS-1641]#Defect 3: Jenkin job failed ,TBD,QUEST-7321
-1,INSBFOS-1640,404607,Assigned,C003602,Environment Error,INSBFOS-1627,[QUEST-14635/INSBFOS-1640] #Defect 2: Integration to GIS failed,UAT,QUEST-14635
-2,INSBFOS-1639,404601,READY FOR TEST,C006808,UI / Cosmetic,INSBFOS-861,[QUEST-7321][INSBFOS-1639]#Defect 3: Two sub classes for Home SmartPLUS in POC setup screens,TBD,QUEST-7321
-3,INSBFOS-1638,403784,Closed,C003602,Environment Error,INSBFOS-1627,[QUEST-14635/INSBFOS-1638] #Defect 1: Unable to proceed cover note submission,UAT,QUEST-14635
-4,INSBFOS-1637,403643,Review In progress,C006808,Clarification,INSBFOS-861,[QUEST-7321][INSBFOS-1637]#Defect 2: Expiry date is editable,TBD,QUEST-7321
-5,INSBFOS-1636,403497,Closed,C006808,Program Error,INSBFOS-861,[QUEST-7321][INSBFOS-1636]#Defect 1: Export to Excel in Fire Tariff is encountering Error 500,TBD,QUEST-7321
-6,INSBFOS-1631,399969,READY FOR TEST,463346,Program Error,INSBFOS-58,[QUEST-4324/INSBFOS-1631] #Defect 18: Extra Coverage amount is not calculated using new formula when cover note is issued from SoapUI,UAT,QUEST-4324
-7,INSBFOS-1623,398949,READY FOR TEST,462883,Program Error,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1623] Defect 03: EDMS Document Status Is Not Updated After Document Is Printed,Operation Readiness Test (ORT),Quest-8042
-8,INSBFOS-1622,398522,Closed,462883,Program Error,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1622] Defect 02: Policy Get Points Although Printed Before ,Operation Readiness Test (ORT),Quest-8042
-9,INSBFOS-1620,397483,Closed,462883,Environment Error,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1620] Defect 01: Document Status Is Not 'Ready' ,Operation Readiness Test (ORT),Quest-8042
-10,INSBFOS-1619,397464,Closed,463346,Environment Error,INSBFOS-1089,[QUEST-9986/INSBFOS-1619] #Defect 2: Unable to generate Cover Note & Policy Number,UAT,QUEST-9986
-11,INSBFOS-1611,396820,Closed,463346,Environment Error,INSBFOS-1089,[QUEST-9986/INSBFOS-1611] #Defect 1: Unable to retrieve data in the response body,UAT,QUEST-9986
-12,INSBFOS-1605,396721,Closed,463346,Environment Error,INSBFOS-58,[QUEST-4324/INSBFOS-1605] #Defect 17: Extra Coverage E111 & E109 are not added into Cover Note issue from SOAP UI,UAT,QUEST-4324
-13,INSBFOS-1593,394218,Closed,463346,Clarification,INSBFOS-58,[QUEST-4324/INSBFOS-1593] #Defect 16: Endorsement – Cover Note issued without extra coverage (Transition Case) New Premium Recalculated,UAT,QUEST-4324
-14,INSBFOS-1589,393235,Closed,C003602,Program Error,INSBFOS-58,[QUEST-4324/INSBFOS-1589] #Defect 15: NCD Allowed Percent % not auto populate,UAT,QUEST-4324
-15,INSBFOS-1587,392772,TEST IN PROGRESS,C003999,Program Error,INSBFOS-58,[QUEST-4324/INSBFOS-1587] #Defect 14: Endorsement remove Extra Coverage E102 did not refund as full,UAT,QUEST-4324
-16,INSBBOS-624,391166,New,450001,Program Error,TBD,To integrate data from MOC Diamond tab 2 to GIS Memo screen,Data Migration,TBD
-17,INSBFOS-1574,390996,Closed,C003602,Parameter/Setup Error,INSBFOS-58,[QUEST-4324/INSBBOS1574-] #Defect 13: Setup for E102 for Master Policy,UAT,QUEST-4324
-18,INSBFOS-1569,390422,Closed,463346,Program Error,INSBFOS-58,[QUEST-4324/INSBFOS-1569] #Defect : 12 Timeout error in SoapUI testing,UAT,QUEST-4324
-19,INSBFOS-1568,390213,Closed,C003602,Parameter/Setup Error,INSBFOS-58,[QUEST-4324/ INSBFOS-1568] #Defect 11: Setup for E109 for Masterpolicy,UAT,QUEST-4324
-20,INSBFOS-1572,390033,Closed,463346,Environment Error,INSBFOS-58,[QUEST-4324/INSBFOS-1572] #Defect 10: Environment Issue in downtime in Diamond on 27/8/2023 - 28/8/2023,UAT,QUEST-4324
-21,INSBFOS-1571,389999,Closed,463346,Environment Error,INSBFOS-58,[QUEST-4324/INSBFOS-1571] #Defect 9: Environment Issue in downtime in Diamond on 23/8/2023 - 24/8/2023,UAT,QUEST-4324
-22,INSBFOS-1570,389947,Closed,463346,Program Error,INSBFOS-58,[QUEST-4324/INSBBOS-1570] #Defect 8: Extra Coverage Not Matched in SoapUI testing,UAT,QUEST-4324
-23,INSBFOS-1554,389921,Closed,462883,Program Error,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1554] Defect 03: Document Status Did Not Change To 'Ready',UAT,Quest-8042
-24,INSBFOS-1553,389769,Closed,C003602,Program Error,INSBFOS-58,[QUEST-4324/INSBFOS-1553] #Defect 7: Bus detariff TA level not tally with GLM,UAT,QUEST-4324
-25,INSBFOS-1530,389345,Closed,C003602,Clarification,INSBFOS-58,[QUEST-4324/INSBFOS-1530] #Defect 6: Calculation for E101 and E102 for short period at endorsement page,UAT,QUEST-4324
-26,INSBFOS-1518,388666,Closed,462811,Program Error,INSBFOS-58,[QUEST-4324/INSBFOS-1518] #Defect 5: Unable to add Extra Coverage 109 in Master Policy,UAT,QUEST-4324
-27,INSBFOS-1509,387437,Closed,463346,Clarification,INSBFOS-58,[QUEST-4324/INSBFOS-1509] #Defect 4: Extra coverage in Diamond is not tally with XML file,UAT,QUEST-4324
-28,INSBFOS-1508,387101,Closed,C003602,Program Error,INSBFOS-58,[QUEST-4324/INSBFOS-1508] #Defect 3: Endt Transition Case New Premium Recalculated,UAT,QUEST-4324
-29,INSBFOS-1506,386873,Closed,462883,Clarification,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1506] Defect 02: Incorrect Reimbursement Point Assigned,UAT,Quest-8042
-30,INSBFOS-1502,385814,Closed,462962,Others,INSBFOS-58,[QUEST-4324/INSBFOS-1502] #Defect 2: Refer Risk Approval Transition Case New Premium Recalculated,UAT,QUEST-4324
-31,INSBFOS-1501,385791,Closed,462883,Environment Error,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1501] Defect 01: Unable to download documents,UAT,Quest-8042
-32,INSBFOS-1499,381901,Closed,C003602,Environment Error,INSBFOS-58,[QUEST-4324/INSBFOS-1499] #Defect 1: Unable to Integrate to GIS,UAT,QUEST-4324
-33,INSBBOS-589,376863,Closed,462811,Program Error,INSBBOS-513,[QUEST-11548/INSBBOS-589] #Defect 8: Unable receive SMS after do Renewal Case,UAT,QUEST-11548
-34,INSBBOS-580,374910,Closed,463346,Program Error,INSBBOS-513,[QUEST-11548/INSBBOS-580] #Defect 7: Phone Number with more than 10 digits are not recognized by the system,UAT,QUEST-11548
-35,INSBBOS-579,374733,Closed,462811,Program Error,INSBBOS-513,[QUEST-11548/INSBBOS-579] #Defect 6: Using office number Issue CN and not record in SMS Blast Enquiry,UAT,QUEST-11548
-36,INSBBOS-578,374635,Closed,463021,Program Error,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-578] #Defect 1: Error code in GIS,Operation Readiness Test (ORT),QUEST-6701
-37,INSBBOS-577,374336,Closed,462811,Program Error,INSBBOS-513,[QUEST-11548/INSBBOS-577] #Defect 5: Did not set the Agent Code in Agent Maintenance Screen but still get SMS,UAT,QUEST-11548
-38,INSBBOS-575,373919,Closed,462811,Program Error,INSBBOS-513,[QUEST-11548/INSBBOS-575] #Defect 4: Unable to get SMS,UAT,QUEST-11548
-39,INSBBOS-574,373763,Review In progress,407699,Program Error,TBD,[BAU- Diamond Production]motor endt POI is computed extra 1day,TBD,TBD
-40,INSBBOS-572,373603,New,407699,Program Error,TBD,[BAU- Diamond Production] system prompt decline risk for trailer SI less than 50K,TBD,TBD
-41,INSBFOS-1472,373594,Closed,462811,Environment Error,INSBBOS-513,[QUEST-11548/INSBBOS-1472] #Defect 3: Cannot proceed to the next screen in Online Insurance,UAT,QUEST-11548
-42,INSBFOS-1471,372521,Closed,462962,Design Error,INSBFOS-643,"[QUEST-7246/INSBFOS-1471] #Defect 2: ""Submitted JPJ On"" column in CBC Direct Report have date captured for Endorsement without JPJ",Operation Readiness Test (ORT),QUEST-7246
-43,INSBFOS-1427,370476,Closed,463020,Others,INSBFOS-1268,[QUEST 11508/INSBFOS-1427] Defect 1: Unable to generate Endorsement Slip after click submit and print,Operation Readiness Test (ORT),QUEST 11508
-44,INSBFOS-1423,369972,Closed,462962,Exist In Production,INSBFOS-643,[QUEST-7246/INSBFOS-1423] #Defect 1: Endorsement Cover Note with ZERO PREMIUM/REFUND PREMIUM Unable to be listed in Second Grid in CBC Reports - Submission Report for All Channel,Operation Readiness Test (ORT),QUEST-7246
-45,INSBBOS-568,369431,Closed,462811,Program Error,INSBBOS-513,"[QUEST-11548/INSBBOS-568] #Defect 1: Campaign SMS - Agent Maintenance Modify screen when press ""F2"" not function",UAT,QUEST-11548
-46,INSBFOS-1404,367678,Closed,463021,Program Error,INSBFOS-1213,[QUEST-11345/INSBFOS-1404] #Defect 1: Diamond could not issue cover note,Operation Readiness Test (ORT),QUEST-11345
-47,INSBBOS-559,366498,Closed,463021,Program Error,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-559] #Defect 7: Vehicle make and model code is NULL for Motor Trade,UAT,QUEST-6701
-48,INSBFOS-1384,363292,Closed,462962,Design Error,INSBFOS-643,[QUEST-7246/INSBFOS-1384] #Defect 18: Block Transaction Email consists of 'Submitted' status Cover Notes when doing Renewal case,TBD,QUEST-7246
-49,INSBFOS-1383,363257,Closed,462962,Clarification,INSBFOS-643,[QUEST-7246/INSBFOS-1383] #Defect 17: 'Submission Pending' status Cover Note Not listed in CBC Block Transaction Email,TBD,QUEST-7246
-50,INSBFOS-1382,363256,Closed,462962,Program Error,INSBFOS-643,[QUEST-7246/INSBFOS-1382] #Defect 16: Submitted Cover Note Listed in CBC Block Transaction Email,TBD,QUEST-7246
-51,INSBFOS-1381,363255,Closed,462962,Design Error,INSBFOS-643,[QUEST-7246/INSBFOS-1381] #Defect 15: Grace Period is Not considered,TBD,QUEST-7246
-52,INSBFOS-1380,363254,Closed,462962,Clarification,INSBFOS-643,[QUEST-7246/INSBFOS-1380] #Defect 14: Payment Reminder Email/SMS not received on last day of days allowed for payment before CBC Block,UAT,QUEST-7246
-53,INSBFOS-1371,361984,Closed,462883,Others,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1371]Defect 06: Pop-Up Message Shown When Transaction Is Selected To Make Payment,UAT,Quest-5849
-54,INSBFOS-1370,361869,Closed,462962,Parameter/Setup Error,INSBFOS-643,[QUEST-7246/INSBFOS-1370] #Defect 13: Intermediary will be Released after CBC Block without making payment,Unit Test,QUEST-7246
-55,INSBFOS-1369,360973,Closed,462883,Program Error,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1369]Defect 05: Unable To Make Payment For Transactions With Net Due Amount > RM0,UAT,Quest-5849
-56,INSBBOS-552,359789,Closed,463021,Program Error,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-552] #Defect 6: System allowed to perform endorsement in Diamond after completing GIS sum insured change,UAT,QUEST-6701
-57,INSBFOS-1366,359730,Closed,462883,Program Error,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1366]Defect 04: Matched Policies Did Not Display By Ascending Order,UAT,Quest-5849
-58,INSBFOS-1364,359495,Closed,462883,Program Error,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1364]Defect 03: Incorrect Payment Mode Shown in Printout,UAT,Quest-5849
-59,INSBFOS-1363,358969,Closed,462962,Data Error,INSBFOS-643,"[QUEST-7246/INSBFOS-1363] #Defect 12: CBC Non Compliance Summary Report ""Accepted by JPJ On"" column is empty",UAT,QUEST-7246
-60,INSBFOS-1357,358923,Closed,463021,Parameter/Setup Error,INSBFOS-1213,[QUEST-11345/INSBFOS-1357] #Defect 1: Jenkin Job 154b did not capture whole data from Diamond,UAT,QUEST-11345
-61,INSBFOS-1354,358888,Closed,462811,Design Error,INSBFOS-643,[QUEST-7246/INSBFOS-1354] #Defect 11: Incorrect Quick Approve Refer Risk CBC pop-up message content,UAT,QUEST-7246
-62,INSBFOS-1352,358777,Closed,462811,Program Error,INSBFOS-643,[QUEST-7246/INSBFOS-1352] #Defect 10: CBC Direct Report does not have endorsement record,UAT,QUEST-7246
-63,INSBFOS-1351,358733,Closed,463020,Parameter/Setup Error,INSBFOS-643,[QUEST-7246/INSBFOS-1351] #Defect 9: CBC Direct Report Column Name Not Changed,UAT,QUEST-7246
-64,INSBFOS-1337,358031,Closed,462962,Program Error,INSBFOS-643,[QUEST-7246/INSBFOS-1337] #Defect 8: Payment Reminder Email/SMS not received on last day allowed for payment before CBC Block,UAT,QUEST-7246
-65,INSBBOS-551,357968,Closed,463021,Others,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-551] #Defect 5: GIS could not receive CN issue date from Diamond (HCT),UAT,QUEST-6701
-66,INSBFOS-1336,357741,Closed,462811,Program Error,INSBFOS-643,[QUEST-7246/INSBFOS-1336] #Defect 7: Unable to do Renewal,UAT,QUEST-7246
-67,INSBBOS-550,357651,Closed,463021,Program Error,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-550] #Defect 4: Jenkin Job could not be found for Motor Others,UAT,QUEST-6701
-68,INSBBOS-549,357110,Closed,463021,Program Error,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-549] #Defect 3: Endorsement done in Diamond and integrated to GIS but Endorsement No. could not be found,UAT,QUEST-6701
-69,INSBBOS-548,357010,New,407699,Program Error,TBD,"[BAU- Diamond Production] fpx payment doesn't return receipt, redirect to empty page ",TBD,TBD
-70,INSBFOS-1334,356707,Closed,462811,Clarification,INSBFOS-643,[QUEST-7246/INSBFOS-1334] #Defect 6: Unable to do Sum Insured Endorsement ,UAT,QUEST-7246
-71,INSBFOS-1333,355928,Closed,462962,Parameter/Setup Error,INSBFOS-643,[QUEST-7246/INSBFOS-1333] #Defect 5: Cover Note Not Integrated to GIS,UAT,QUEST-7246
-72,INSBFOS-1332,355421,Closed,463020,Requirement Error,INSBFOS-643,"[QUEST-7246/INSBFOS-1332] #Defect 4: ""Convert to Cover Note"" button is enabled in the Premium Tab of Quotation",UAT,QUEST-7246
-73,INSBFOS-1329,355135,Closed,462962,Clarification,INSBFOS-643,[QUEST-7246/INSBFOS-1329] #Defect 3: Intermediary Able to Issue CN after CBC Manual Block,UAT,QUEST-7246
-74,INSBFOS-1328,354817,Closed,462962,Parameter/Setup Error,INSBFOS-643,[QUEST-7246/INSBFOS-1328] #Defect 2: Jenkins Job 90B - Diamond Endorsement to GIS failed to build,UAT,QUEST-7246
-75,INSBFOS-1327,354132,Closed,462883,Program Error,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1327]Defect 02: Menu Name Not Changed ,UAT,Quest-5849
-76,INSBFOS-1325,353962,Closed,C003999,Program Error,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1325]Defect 01: Cover note unable to integrate from Diamond to GIS ,UAT,Quest-5849
-77,INSBBOS-546,353667,Closed,463021,Program Error,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-546] #Defect 2: Cover note generated in Diamond failed to integrate to GIS (CVC),UAT,QUEST-6701
-78,INSBFOS-1323,352304,Closed,462587,Program Error,INSBFOS-1188,[QUEST-11670/INSBFOS-1323] #Defect 4:Unable to integrate policy number via GIS,Operation Readiness Test (ORT),QUEST-11670
-79,INSBFOS-1321,350186,Closed,462587,Program Error,INSBFOS-1188,[QUEST-11670/INSBFOS-1321] #Defect 3: Incorrect Policy Number display in Endorsement Enquiry GIS,Operation Readiness Test (ORT),QUEST-11670
-80,INSBFOS-1313,350103,Closed,462962,Program Error,INSBFOS-1188,[QUEST-11670/INSBFOS-1313] #Defect 2: Incorrect Area Code for Convert to Fleet Policy from Quotation Fleet Policy,Operation Readiness Test (ORT),QUEST-11670
-81,INSBBOS-519,349308,New,198999,Program Error,TBD,[Production Issue] WU 4202 - Motorist Plan A-No Sum Insured appear in vehicle and summary screen,TBD,TBD
-82,INSBBOS-509,346162,Closed,463021,Program Error,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-509] #Defect 1: Cover note generated in Diamond failed to integrate to GIS,UAT,QUEST-6701
-83,INSBFOS-1264,343486,Rejected,C003602,Others,INSBFOS-1188,[QUEST-11670/INSBFOS-1264] #Defect 1: Master Policy unable to integrate to GIS,Operation Readiness Test (ORT),QUEST-11670
-84,INSBFOS-1225,341219,Closed,462962,Parameter/Setup Error,INSBFOS-941,[QUEST-9617/INSBFOS-1225] #Defect 5: Unable to Proceed Renewal ,Operation Readiness Test (ORT),QUEST-9617
-85,INSBFOS-1212,339674,Closed,462587,Others,INSBFOS-941,[QUEST-9617/INSBFOS-1212] #Defect 5: Area Code in GIS not tally with Request XML,Operation Readiness Test (ORT),QUEST-9617
-86,INSBFOS-1211,339648,Closed,462962,Duplicate Error,INSBFOS-941,[QUEST-9617/INSBFOS-1211] #Defect 4: Endorsement Description Staging Record Not Found,Operation Readiness Test (ORT),QUEST-9617
-87,INSBBOS-496,339026,Closed,462962,Data mapping error,INSBFOS-941,[QUEST-9617/INSBBOS-496] #Defect 3: Incorrect area for area code transition case (New Endorsement CN Issuance),Operation Readiness Test (ORT),QUEST-9617
-88,INSBFOS-1202,337960,Closed,C003999,Parameter/Setup Error,INSBFOS-941,[QUEST-9617/INSBFOS-1202][REG] Defect 01: TS09 Convert quotation to cover note mismatch for GLM value,Operation Readiness Test (ORT),QUEST-9617
-89,INSBFOS-1201,337722,Closed,C003602,Parameter/Setup Error,INSBFOS-941,[QUEST-9617][INSBFOS-1201]-Defect 2 : Incorrect Make model name in GIS,Operation Readiness Test (ORT),QUEST-9617
-90,INSBBOS-492,337384,Review In progress,407699,Program Error,TBD,[BAU-Production Support] unable to perform alternative payment- AKS9182 ,TBD,TBD
-91,INSBBOS-488,337348,Closed,453003,Environment Error,INSBBOS-513,[QUEST-11548/INSBBOS-488] #Defect 2: Diamond Premium Zero,UAT,QUEST-11548
-92,INSBFOS-1194,335787,Closed,453003,Program Error,INSBFOS-941,[Quest 9617|INSBFOS-1194][REG] Wrong vehicle group and no area code send to GIS,TBD,Quest 9617
-93,INSBFOS-1187,335520,Closed,462962,Environment Error,INSBFOS-643,[QUEST-7246/INSBFOS-1187] #Defect 1: Premium Zero,UAT,QUEST-7246
-94,INSBFOS-1164,327492,Closed,181463,Program Error,INSBFOS-941,[Quest 9617] [INSBFOS-1164] - Defect 22:  Defect Cancelled and replaced with wrong premium,TBD,Quest 9617
-95,INSBFOS-1163,327176,Closed,453003,Program Error,INSBFOS-941,[Quest 9617 / INSBFOS-1163]- Defect 21 : Area code is not integrated to GIS,TBD,Quest 9617 
-96,INSBFOS-1153,326022,Closed,181463,Program Error,INSBFOS-941,[Quest 9617 / INSBFOS-1153] - Defect 20 : Master Policy vehicles submitted but not integrated to GIS,UAT,Quest 9617 
-97,INSBFOS-1152,325783,Closed,181463,Program Error,INSBFOS-941,[Quest 9617 / INSBFOS-1152] - Defect 19 : New Business - Tankers - Incorrect premium,UAT,Quest 9617 
-98,INSBFOS-1151,325707,Closed,181463,Clarification,INSBFOS-941,[Quest 9617 / INSBFOS-1151] - Defect 18 : New Quotation Master Policy - premium incorrect,UAT,Quest 9617 
-99,INSBFOS-1150,325428,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1150] - Defect 17 : Transition case-Incorrect endorsement premium,TBD,QUEST-9617 
-100,INSBFOS-1148,324956,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1148] - Defect 16 : Annualised premium field for endorsement transaction,TBD,QUEST-9617 
-101,INSBFOS-1145,324691,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1145] - Defect 15  : Unable to integration endorsement transaction to GIS,TBD,QUEST-9617 
-102,INSBFOS-1138,324150,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1138] - Defect 14 : Wrong area code when editing a draft cover note issued by Cancel and Replacement,UAT,QUEST-9617 
-103,INSBFOS-1137,323829,Closed,C006588,Parameter/Setup Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1137] - Defect 13 : Incorrect After Deployment GLM premium calculation for Taxi Comprehensive and TPFT.,UAT,QUEST-9617 
-104,INSBFOS-1136,323654,Closed,401206,Program Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1136]- Defect 12 : Motor Rate - Incorrect GLM premium calculation for Taxi Comprehensive and TPFT,UAT,QUEST-9617 
-105,INSBFOS-1133,323132,Closed,181463,Program Error,INSBFOS-941,[QUEST-9617] [INSBFOS-1133] - Defect 11 : Quotation convert to covernote_PCP wrong premium,UAT,QUEST-9617
-106,INSBFOS-1132,322934,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617] [INSBFOS-1132] - Defect 10 : Incorrect premium for GV&Tankers,TBD,QUEST-9617
-107,INSBFOS-1130,322539,Closed,452730,Program Error,INSBFOS-750,[QUEST-8319] GIP for 7 days for commercial car is not correct.,TBD,QUEST-8319
-108,INSBFOS-1129,322714,Closed,C006588,Data mapping error,INSBFOS-941,[QUEST-9617 / INSBFOS-1129 ] -Automation Defect 2 :  Vehicle Search Function text field replace Vehicle Make to Vehicle Make & Model in GLM ,UAT,QUEST-9617 
-109,INSBFOS-1128,322703,Closed,C006588,UI / Cosmetic,INSBFOS-941,[QUEST-9617 / INSBFOS-1128]- Automation Defect 1: Unable to click Motor icon in transaction page,UAT,QUEST-9617 
-110,INSBFOS-1127,322315,Closed,181463,Program Error,INSBFOS-941,[QUEST-9617] [INSBFOS-1127] - Defect 9 : Defect Wrong Quotation Premium_private car,UAT,QUEST-9617
-111,INSBFOS-1126,322082,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1126] - Defect 8 : Unable to download UW report in Diamond,TBD,QUEST-9617 
-112,INSBFOS-1125,321901,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617|INSBFOS-1125]- defect 7 : Premium Incorrect for Endorsement transaction,TBD,QUEST-9617
-113,INSBFOS-1124,321773,Closed,457361,Program Error,INSBFOS-941,[QUEST-9617|INSBFOS-1124] -defect 6:Transition Case Act premium not match PC-COMP,UAT,QUEST-9617
-114,INSBFOS-1109,321728,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617|INSBFOS-1109]- Defect 5 : Premium incorrect for replacement CN,TBD,QUEST-9617
-115,INSBFOS-1108,321478,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617|INSBFOS-1108]-Defect 4 : Area code is not display in UW Report,UAT,QUEST-9617
-116,INSBFOS-1107,321473,Closed,453003,Program Error,INSBFOS-941,[QUEST-9617|INSBFOS-1107]-Defect 3 : Incorrect Vehicle Grouping,UAT,QUEST-9617
-117,INSBFOS-1105,320872,Rejected,462587,Program Error,INSBFOS-423,QUEST-7380/INSBFOS-1105] #Defect 2: MSV Shared API WS04 & WS10 does not meet expected result,Operation Readiness Test (ORT),TBD
-118,INSBFOS-1100,320808,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-1100] #Defect 1: Unable to proceed to issue renewal quotation ,Operation Readiness Test (ORT),QUEST-7380
-119,INSBFOS-1096,319685,Closed,C006588,Parameter/Setup Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1096 ]-Defect 2: Job10B failed to integrate active policy back to Diamond due to field size error ,UAT,QUEST-9617 
-120,INSBFOS-1093,318713,Closed,C006588,Parameter/Setup Error,INSBFOS-941,[QUEST-9617 / INSBFOS-1093]-Defect 1: Integration job 5551B failed due to error,UAT,QUEST-9617 
-121,INSBBOS-458,315607,Closed,407699,Program Error,TBD,[BAU-Production Support] no cancellation print/ after issue cancellation endorsement for IG and FW policy,TBD,TBD
-122,INSBFOS-1082,313526,Closed,C003602,Program Error,INSBFOS-478,[Quest-5086][INSBFOS-1082] Defect 4 : Personal accident module unable to connect to EDMS ,UAT,Quest-5086
-123,INSBFOS-1079,312028,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-1079] #Defect 14:Unable to integrate cover note via Jenkin job 90B,TBD,QUEST-7380
-124,INSBBOS-454,311614,Closed,407699,Program Error,TBD,"[BAU-Production Support]cover note cancellation successful, but cn status still show as APPROVED",TBD,TBD
-125,INSBFOS-1074,310761,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-1074] #Defect 13: Revised Mileage Limit does not meet expected result ,UAT,QUEST-7380
-126,INSBBOS-453,309082,Closed,C003999,Program Error,INSBBOS-318,[QUEST-6701/INSBBOS-453] Defect 01: Unable to generate claim report,UAT,QUEST-6701
-127,INSBFOS-1067,308748,Closed,452730,Others,INSBFOS-862,[BUG#2] Batch job for 30b 35b and 40b not functioning,UAT,TBD
-128,INSBBOS-451,308337,Closed,C003602,Program Error,INSBBOS-319,[QUEST-8914][INSBFOS-451]#Defect 4: Claim amount in details report,UAT,QUEST-8914
-129,INSBBOS-450,308334,Closed,C003602,Program Error,INSBBOS-319,[QUEST-8914][INSBFOS-450]#Defect 3: Error on surplus count,UAT,QUEST-8914
-130,INSBBOS-449,308333,Closed,C003602,Program Error,INSBBOS-319,[QUEST-8914][INSBFOS-449]#Defect 2: field length for SI Band and Actual SI ,UAT,QUEST-8914
-131,INSBBOS-448,308332,Closed,C003602,Program Error,INSBBOS-319,[QUEST-8914][INSBFOS-448]#Defect 1: Error message when processing /generate report,UAT,QUEST-8914
-132,INSBFOS-1061,306534,Closed,462502,Program Error,INSBFOS-723,[QUEST-8397][INSBFOS-1061]#Defect 14: Wrong Vehicle Policy Type in EPO File,Operation Readiness Test (ORT),QUEST-8397
-133,INSBFOS-1057,306214,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-1057]#Defect 23: Unable to run JPJ job,Operation Readiness Test (ORT),Quest-5589
-134,INSBFOS-1031,304565,Closed,462502,Program Error,INSBFOS-723,[QUEST-8397/INSBFOS-1031]#Defect 13: Integration Fail for RRA as Extra Coverage,Operation Readiness Test (ORT),QUEST-8397
-135,INSBFOS-1024,304329,Closed,462587,Data mapping error,INSBFOS-723,[QUEST-8397/INSBFOS-1024]#Defect 12:  No records found when search policy number or cover note number at policy search,UAT,QUEST-8397
-136,INSBFOS-1023,304408,Closed,462811,Program Error,INSBFOS-723,[QUEST-8397/INSBFOS-1023]#Defect 11: RRA in cross selling not auto populate in renewal screen,UAT,QUEST-8397
-137,INSBFOS-1022,304190,Closed,462502,Program Error,INSBFOS-723,(QUEST-8397)[INSBFOS-1022]#Defect 10: Unable to add UBT for endorsement ,Operation Readiness Test (ORT),TBD
-138,INSBFOS-1021,304057,Closed,452730,Program Error,INSBFOS-862,[QUEST-9008/INSBFOS-1021] Defect#1- PP list did not print on Document.,UAT,QUEST-9008
-139,INSBFOS-1020,303846,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 22: Integration 5551B job failed,UAT,Quest-5589
-140,INSBFOS-1013,303241,Closed,462811,Program Error,INSBFOS-723,[INSBFOS-723]#Defect 9:  cover note number and vehicle number blank when do Renewal with RRA as cross selling ,UAT,TBD
-141,INSBFOS-1012,303240,Closed,462587,Parameter/Setup Error,INSBFOS-723,[QUEST-8397/INSBFOS-1012] #Defect 08:Unable to integrate cover note via Jenkin job 5551B,UAT,QUEST-8397
-142,INSBFOS-1003,302244,Closed,462502,Program Error,INSBFOS-723,[INSBFOS-723]#Defect 7: Integration fail for Motor-Others Cases with RRA,Operation Readiness Test (ORT),TBD
-143,INSBFOS-1002,301719,Closed,C005922,Program Error,INSBFOS-731,[QUEST-7321/INSBFOS-1002] #Defect 02: Diamond Failed to Connect EDMS,UAT,QUEST-7321
-144,INSBFOS-1001,301579,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 21: Receive incorrect Cover Note Declined Template,TBD,Quest-5589
-145,INSBFOS-999,301610,Closed,462502,Program Error,INSBFOS-723,[INSBFOS-723]#Defect 6: Integration fail for RRA cross selling,Operation Readiness Test (ORT),TBD
-146,INSBFOS-993,301519,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-993] #Defect 11: The replacement cover note number not found in client profile,UAT,QUEST-7380
-147,INSBFOS-992,300731,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 20: Incorrect cover note status when MPGS void fail  ,Operation Readiness Test (ORT),Quest-5589
-148,INSBFOS-991,300482,Closed,462502,Program Error,INSBFOS-723,[INSBFOS-723]#Defect 5: RRA as Extra Coverage Disappear after Cancel With Replacement   ,UAT,TBD
-149,INSBFOS-987,300665,Closed,462502,Program Error,INSBFOS-723,[INSBFOS-723]#Defect 4: PDS Document are Not Downloaded in the Latest Version,UAT,TBD
-150,INSBFOS-1018,300288,Closed,462587,Parameter/Setup Error,INSBFOS-423,[QUEST-7380/INSBFOS-1018] #Defect 10: Reference number not found in motor saver approval,UAT,QUEST-7380
-151,INSBFOS-1015,300276,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-1015] #Defect 09: WS04 Submission required motor saver approval,UAT,QUEST-7380
-152,INSBBOS-429,300275,Closed,407699,Program Error,TBD,"[BAU-Production Support] endorsement cancellation successful, but endorsement status still show as APPROVED",TBD,TBD
-153,INSBFOS-984,300356,Closed,462502,Program Error,INSBFOS-723,[INSBFOS-723]#Defect 3: UW Remark Incorrect,Operation Readiness Test (ORT),TBD
-154,INSBBOS-428,300270,Closed,407699,Program Error,TBD,[BAU-Production Support] Vehicle no auto updated as NA for new registration cn ,TBD,TBD
-155,INSBFOS-1019,300259,Closed,462587,Environment Error,INSBFOS-423,[QUEST-7380/INSBFOS-1019] #Defect 8: The odometer image unable to find in EDMS.,UAT,QUEST-7380
-156,INSBFOS-983,300321,Closed,462502,Program Error,INSBFOS-723,[INSBFOS-723]#Defect 2: Missing Details in  EPO Text File ,UAT,TBD
-157,INSBFOS-982,299111,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162] #Defect 2:Action column filtering in Renewal Listing and Task List,Operation Readiness Test (ORT),Quest-5589
-158,INSBFOS-981,299106,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162] #Defect 1: Renewal status column filtering in Renewal Listing,TBD,Quest-5589
-159,INSBFOS-979,298920,Rejected,C005922,Program Error,INSBFOS-731,[QUEST-7321/INSBFOS-979] Defect 01: The value for Discount and Commission in Generic Cover Note shall exceed 0,TBD,QUEST-7321
-160,INSBFOS-1017,298829,Closed,462587,Parameter/Setup Error,INSBFOS-423,[QUEST-7380/INSBFOS-1017] #Defect 07: MSV Shared API WS10 does not meet expected result ,UAT,QUEST-7380
-161,INSBBOS-415,298818,Closed,462811,Program Error,INSBBOS-310,[INSBBOS-310] Defect 01:Renewal notice print out  is blank Medisure repricing renewal notice,TBD,TBD
-162,INSBFOS-978,298555,Rejected,462502,Program Error,INSBFOS-723,[INSBFOS-723]#Defect 1: Different Vehicle Number in Quotation for Cross Selling ,TBD,TBD
-163,INSBFOS-1016,298535,Closed,462587,Parameter/Setup Error,INSBFOS-423,[QUEST-7380/INSBFOS-1016] #Defect 06: MSV Shared API WS04 does not meet expected result ,UAT,QUEST-7380
-164,INSBFOS-959,297810,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 19: Contact number display in email is incorrect,Operation Readiness Test (ORT),Quest-5589
-165,INSBFOS-1014,297634,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-1014] #Defect 05: Motor saver section is missing in Diamond extra coverage screen,UAT,QUEST-7380
-166,INSBFOS-953,296410,Closed,C003602,Program Error,INSBFOS-162,"[Quest-5589][INSBFOS-162]#Defect 18: Motor refer risk - JPJ Rejected within 24 hours, No Auto Refund",Operation Readiness Test (ORT),Quest-5589
-167,INSBFOS-938,295014,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-938] #Defect 04:Unable to integrate from GIS to Diamond via Jenkin job 30B,UAT,QUEST-7380
-168,INSBFOS-936,294860,READY FOR TEST,453003,Program Error,TBD,[QUEST-5354][INSBFOS-284] Defect #3-Error page in Reimbursement Log Point Report - Export to excel function,UAT,QUEST-5354
-169,INSBFOS-935,294770,READY FOR TEST,181463,Program Error,INSBBOS-50,[Quest-5354][INSBFOS-284] Defect # 2 - Transition case handling issue - Product Setup without MCO but MCO code integrated to GIS,UAT,Quest-5354
-170,INSBBOS-401,294930,Review In progress,407699,Program Error,TBD,[BAU-Production Support] refund premium is different than calculated ,TBD,TBD
-171,INSBFOS-926,294179,Closed,C003602,Program Error,INSBFOS-478,[Quest-5086][INSBFOS-478] Defect 3 : Diamond unable to connect to EDMS,Operation Readiness Test (ORT),Quest-5086
-172,INSBFOS-925,294204,Closed,C003602,Program Error,INSBFOS-162,"[Quest-5589][INSBFOS-162]#Defect 17: JPJ Rejected within 24 hours, No Auto Refund",TBD,Quest-5589
-173,INSBFOS-891,294004,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 16: WhatsApp notification setup,Operation Readiness Test (ORT),Quest-5589
-174,INSBFOS-883,292755,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-883] #Defect 03:Unable to integrate cover note via Jenkin job 5551B,UAT,QUEST-7380
-175,INSBFOS-859,291617,Closed,C003602,UI / Cosmetic,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 15: IOS Screen cosmetic issue at OTP screen ,Operation Readiness Test (ORT),Quest-5589
-176,INSBBOS-389,291152,Review In progress,407699,Program Error,TBD,[BAU-Production Support] OR not integrate due to PM1448748,TBD,TBD
-177,INSBFOS-851,290779,Closed,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-851] #Defect 02: Diamond at premium tab vehicle number & motor premium details are blank,TBD,QUEST-7380
-178,INSBBOS-388,290843,Closed,407699,Program Error,TBD,[BAU-Production Support] Diamond did not send extra benefit amount in cew table to GIS,TBD,TBD
-179,INSBBOS-387,290840,Closed,407699,Program Error,TBD,[BAU-Production Support] Item amount not tally with master amount (ESOA),TBD,TBD
-180,INSBFOS-850,290437,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 13: Screen cosmetic issue at OTP screen,Operation Readiness Test (ORT),Quest-5589
-181,INSBFOS-849,290424,Closed,C003602,Others,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 14: Unable to send quote thru WhatsApp when using jpj data and non jpj data,Operation Readiness Test (ORT),Quest-5589
-182,INSBFOS-848,290421,Rejected,462587,Program Error,INSBFOS-423,[QUEST-7380/INSBFOS-423] UAT Defect 01:Reference number not found in agent refer risk approval screen,UAT,QUEST-7380
-183,INSBFOS-838,289606,READY FOR TEST,453003,Program Error,TBD,[QUEST-5354][INSBFOS-284] Defect #1-No active policy return to Diamond,UAT,QUEST-5354
-184,INSBFOS-781,279465,Closed,461631,Program Error,INSBFOS-192,[QUEST-5584][INSBFOS-192] #Defect 1: Fire Job 150b in Jenkins unable to run.,TBD,QUEST-5584
-185,INSBFOS-780,278605,Closed,462587,Program Error,INSBFOS-712,[QUEST-8528/INSBFOS-780] #Defect 01: Document didn't print out the latest pdf as expected result,UAT,QUEST-8528
-186,INSBFOS-779,278340,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 12: Unable to send quote to WhatsApp after deploy ,TBD,Quest-5589
-187,INSBFOS-742,274096,Closed,461631,Program Error,INSBFOS-192,[QUEST-5584][INSBFOS-192] #Defect 1:Non-Motor Renewal Centre cannot integrate Diamond-GIS-Diamond.,TBD,QUEST-5584
-188,INSBFOS-740,273831,Closed,462502,Others,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 11: Did not receive email when JPJ rejected,Operation Readiness Test (ORT),Quest-5589
-189,INSBFOS-738,273668,Closed,462587,Program Error,INSBBOS-200,[QUEST-7711/INSBFOS-738] #Defect 02: Total premium is zero for Marine Open Cover,UAT,QUEST-7711
-190,INSBBOS-316,273512,Closed,C003999,Program Error,INSBBOS-200,[QUEST-7711][INSBBOS-200]UAT Defect 01: CN Not able to integrate to GIS,UAT,QUEST-7711
-191,INSBFOS-711,270998,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 10: Unable to receive Mail to customer when cove note generate with refer risk,Operation Readiness Test (ORT),Quest-5589
-192,INSBFOS-699,270479,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 9: Unable to sent WhatsApp message for Chinese template,Operation Readiness Test (ORT),Quest-5589
-193,INSBFOS-698,270474,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 8: Chinese Language Template not able to display correctly after setup,Operation Readiness Test (ORT),Quest-5589
-194,INSBFOS-696,269551,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 7: Payment mode not updated in client profile,Operation Readiness Test (ORT),Quest-5589
-195,INSBFOS-695,268902,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 6: Unable to proceed payment for Refer Risk case,Operation Readiness Test (ORT),Quest-5589
-196,INSBFOS-694,268019,New,C005015,Program Error,TBD,ESOA | Premium mismatch between Paymentmaster and paymentitem,TBD,TBD
-197,INSBFOS-693,268016,New,C005015,Program Error,TBD,Medical | System unable to display policies for renewal issuance,TBD,TBD
-198,INSBFOS-689,267171,Closed,C003602,Program Error,INSBFOS-478,	[Quest-5086][INSBFOS-478] Defect 2 : Error after click print and send to JPJ,UAT,Quest-5086
-199,INSBBOS-309,265697,Review In progress,407699,Program Error,TBD,[BAU-Production Support] CBC blocked not immediately released after payment done ,TBD,TBD
-200,INSBBOS-288,264030,Closed,C003602,Program Error,INSBBOS-197,[Quest-7473][INSBFOS-197] #Defect 1: Error to enquire endorsement,UAT,Quest-7473
-201,INSBFOS-638,262215,Closed,C003602,Program Error,INSBFOS-478,[Quest-5086][INSBFOS-478] Defect 1 : Swagger not working ,TBD,Quest-5086
-202,INSBFOS-629,257583,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 5: Error in Filtering in Whatsapp Message Sent report,UAT,Quest-5589
-203,INSBFOS-583,257009,Closed,461631,Data Error,INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 7:AML MQ Request and Response Log Report do not generate,Operation Readiness Test (ORT),QUEST-6919
-204,INSBFOS-484,256645,Closed,C003602,Program Error,INSBFOS-162,[Quest-5589][INSBFOS-162] #Defect 4: Unable to proceed for payment,UAT,Quest-5589
-205,INSBFOS-481,256426,Closed,461631,Clarification,INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 6:Unable to integrate new business MOTOR from Diamond to GIS,Operation Readiness Test (ORT),QUEST-6919
-206,INSBFOS-480,256423,Closed,461631,Others,INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 5:Unable to complete payment in OI.,Operation Readiness Test (ORT),QUEST-6919
-207,INSBFOS-477,256168,Closed,C003602,Environment Error,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 3: Motor premium not display,UAT,Quest-5589
-208,INSBFOS-476,255864,Closed,C003602,Others,INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 4: Unable to integrate FW,Operation Readiness Test (ORT),QUEST-6919
-209,INSBFOS-474,255564,Closed,461631,Data Error,INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 3:Response code is not tally with expected result,Operation Readiness Test (ORT),QUEST-6919
-210,INSBFOS-463,254425,Closed,C003602,TBD,INSBFOS-387,[Quest-6919][NSBFOS-387] #Defect02 : system Route for Customer Screening Approval when passport No is end with digit -1,Operation Readiness Test (ORT),Quest-6919
-211,INSBFOS-462,254390,Closed,461631,Data Error,INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 1:AML MQ Request and Response Log Report do not generate,UAT,QUEST-6919
-212,INSBFOS-461,253882,Closed,C005922,Requirement Error,INSBFOS-186,"[QUEST-5521/INSBFOS-186] ""Cancellation Letter"" and ""GST Credit Note"" are not disable in the Cancellation Enquiry screen",TBD,QUEST-5521
-213,INSBFOS-457,251912,Closed,C003520,Program Error,INSBFOS-186,[QUEST-5521/INSBFOS-186] Diamond Motor JPJ status is Blank after CN cancelled,UAT,QUEST-5521
-214,INSBFOS-454,251685,Closed,C005922,Program Error,INSBFOS-186,[QUEST-5521/INSBFOS-186] JPJ Status shows 'Accepted by JPJ' in Client Profile,UAT,QUEST-5521
-215,INSBFOS-453,251329,Closed,C005922,Program Error,INSBFOS-186,CLONE - [QUEST-5521/INSBFOS-186] Diamond at Premium tab NCD Vehicle number & Premium details are blank,UAT,QUEST-5521
-216,INSBBOS-175,250587,Closed,461587,Program Error,INSBBOS-34,[QUEST-3955/INSBBOS-34] #Defect 01: Motor Endorsement Screen Issue,UAT,QUEST-3955
-217,INSBFOS-444,250520,Closed,C005922,Program Error,INSBFOS-186,[QUEST-5521/INSBFOS-186] Diamond Motor Unable to Cancel the CN in Client Profile screen,UAT,QUEST-5521
-218,INSBFOS-443,249629,Closed,461632,Program Error,INSBFOS-291,[QUEST-5666/INSBFOS-291]Defect 03: The proposal form and auto-debit form page are blank and Unable to get Covernote,UAT,QUEST-5666
-219,INSBFOS-441,249363,Closed,C003520,Program Error,INSBFOS-186,"Defect [UAT] [QUEST-5521/INSBFOS-186] Diamond Motor issue while click on - ""Print and Send to JPJ""",UAT,TBD
-220,INSBFOS-439,249001,Closed,461632,Data Error,INSBFOS-291,[QUEST-5666/INSBFOS-291]Defect 02: Unable to display Questionnaire when update covernote for date 3/11/2022,UAT,QUEST-5666
-221,INSBBOS-160,247307,New,198999,Program Error,TBD,[Production Issue] System prompt error message during endorsement confirmation - PA,TBD,TBD
-222,INSBFOS-428,247123,Closed,C003520,Others,INSBFOS-186,[QUEST-5521/INSBFOS-186] Jenkins batch job not yet setup,UAT,QUEST-5521
-223,INSBFOS-422,246871,Closed,C003520,Program Error,INSBFOS-186,[QUEST-5521/INSBFOS-186] Diamond at Premium tab NCD Vehicle number & Premium details are blank,UAT,QUEST-5521
-224,INSBBOS-158,246835,Review In progress,407699,Program Error,TBD,[Production Support]Diamond send wrong batch No. for manual credit card,TBD,TBD
-225,INSBFOS-415,246321,Closed,461632,Program Error,INSBFOS-291,[QUEST-5666/INSBFOS-291]Defect 01: Unable to Display the Plan Details,UAT,QUEST-5666
-226,INSBFOS-385,243852,Closed,461631,Program Error,INSBFOS-352,[Quest-6462][INSBFOS-352] #Defect 01: eFlyers not display for reprint document.,UAT,Quest-6462
-227,INSBBOS-150,242365,Closed,C003602,Program Error,INSBBOS-61,[Quest-5555][INSBFOS-61] #Defect04 : Peril not reflect ,UAT,Quest-5555
-228,INSBBOS-142,241084,Closed,C003602,Program Error,INSBBOS-61,[Quest-5555][INSBBOS-61][UAT] #Defect 03: Unable to renew policy,UAT,Quest-5555
-229,INSBBOS-139,240793,Closed,C003602,Program Error,INSBBOS-61,[Quest-5555][INSBBOS-61][UAT] #Defect 02: Incorrect gross premium,UAT,Quest-5555
-230,INSBBOS-138,240792,Closed,C003602,Program Error,INSBBOS-61,[Quest-5555][INSBBOS-61][UAT] #Defect 01: Incorrect Service tax and commission ,UAT,Quest-5555
-231,INSBFOS-351,234586,Closed,C003999,Others,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 01:ISM connection down in Regression,Operation Readiness Test (ORT),QUEST-4130
-232,INSBBOS-109,228015,Closed,461632,Others,INSBBOS-89,[QUEST-5323/INSBBOS-89]Defect 02: Missing Bank Branch code at Bank Ref No field. & Wrongly Coverage Type Setup,UAT,QUEST-5323
-233,INSBBOS-128,224829,Closed,461632,Program Error,INSBBOS-89,[QUEST-5323/INSBBOS-89] Defect 01: prestige PA integration error from Diamond to GIS,UAT,QUEST-5323
-234,INSBFOS-322,223380,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 12 : GIS Encountered the error to add the payee details before perform the manual refund,UAT,QUEST-4130
-235,INSBFOS-300,219695,Rejected,C003999,Others,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 11 : Diamond - Incorrect total amount when make payment via payment submission or upfront(TS03),UAT,QUEST-4130
-236,INSBFOS-299,219659,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 10 : Diamond -Missing the PTV details from the refer risk approval(TS25),UAT,QUEST-4130
-237,INSBFOS-290,218452,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 09 : TS08 - Encountered the error unable convert to cover note during the quotation renewal,UAT,QUEST-4130
-238,INSBFOS-289,218421,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 08 : Diamond is not picking up CN after integration from GIS during renewal transaction,UAT,QUEST-4130
-239,INSBFOS-288,218412,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 07 : Diamond is not picking up CN after integration from GIS,UAT,QUEST-4130
-240,INSBFOS-287,218403,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 06 : Pay by gross and Diamond PTV amount issued,UAT,QUEST-4130
-241,INSBFOS-286,218399,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 05: PTV voucher number and amount missing in GIS screen,UAT,QUEST-4130
-242,INSBFOS-283,214730,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 04: PTV voucher number missing on the policy schedule when payment has been submitted,UAT,QUEST-4130
-243,INSBBOS-82,213928,New,407699,Program Error,TBD,[Production Support] undeclared payment report didn’t loadall the undeclared endorsement cn ,TBD,TBD
-244,INSBFOS-269,213342,Closed,C003999,Others,INSBFOS-56, [QUEST-4130][INSBFOS-56]Defect 03: Unable to generate the epolicy with PTV case,UAT,QUEST-4130
-245,INSBFOS-252,211906,Closed,C003999,Program Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 02: Unable to convert to covernote with PTV when make the payment,UAT,QUEST-4130
-246,INSBBOS-72,211375,New,407699,Program Error,TBD,[Production Support] Agent unable to check float balance in diamond system ,TBD,TBD
-247,INSBFOS-248,210327,Closed,C003999,Infrastructure Error,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 01:ISM connection down ,UAT,QUEST-4130
-248,INSBFOS-141,204163,New,406803,Program Error,TBD,[production support] Add on benefits for Pos Malaysia,TBD,TBD
-249,INSBFOS-139,203290,Review In progress,198753,Data Error,TBD,Production Support - PG1008110M - HAZRINAZ - Double Payment Record in Diamond ,TBD,TBD
-250,INSBFOS-138,203000,Review In progress,199622,Program Error,TBD,Marine Cargo - Sum insured becomes incorrect in GIS,UAT,TBD
-251,INSBBOS-48,202993,New,199622,Program Error,TBD,EGL files for April 2022,TBD,TBD
-252,INSBFOS-135,202778,New,199622,Program Error,TBD,All MAX PA policies not invited ,TBD,TBD
-253,INSBFOS-133,202590,New,199622,Program Error,TBD,Policy issued in diamond system doesn’t reflect the alias code to Tera Term,TBD,TBD
-254,INSBBOS-46,202265,New,199622,Program Error,TBD,QUOTA SHARE ATP/ ATSM,TBD,TBD
-255,INSBFOS-128,201857,Closed,199622,Program Error,TBD,To fix Diamond motor integration issue for the payment master integration failure due to database column large not enough,TBD,TBD
-256,INSBBOS-31,199531,New,407699,TBD,TBD,[Production Support] Request for API Additional Documents and Server Whitelist Request,TBD,TBD
-257,INSBBOS-28,198956,Closed,198753,Design Error,TBD,Online Insurance and White Label are not in responsive to smaller screen size [mobile].,TBD,TBD
-258,INSBBOS-23,195597,New,407699,TBD,TBD,[Production Support]Error during FWCMS response data processing,TBD,TBD
-259,INSBFOS-80,191902,New,407699,TBD,TBD,[Production Support] CEO Signature Misaligned- Marine Cargo ,TBD,TBD
-260,INSBFOS-76,190860,Review In progress,198753,TBD,TBD,Production Support-Premium not computed for both New business and renewal of certain Goods vehicle (Direct a/c),TBD,TBD
-261,INSBFOS-71,190546,Closed,198753,TBD,TBD,Production Support-Agent not receiving CBC reminder one day before it breach CBC (JB5008150 (HONG LEE AUTO ENTERPRISE ) ,TBD,TBD
-262,INSBFOS-64,188755,Closed,198999,Program Error,TBD,[Production Issue] Cancel cover note _ BLH9166 & BLH2999 ,TBD,TBD
-263,INSBFOS-62,188282,Assigned,406803,TBD,TBD,[Production Support] Customer did not receive SMS notification for MSV renewal,TBD,TBD
-264,INSBFOS-45,180862,Closed,452730,Environment Error,TBD,PRODUCTION - xxxxxx,TBD,TBD
-265,INSBFOS-17,173722,Closed,C002974,TBD,TBD,INSBFOS-8 TS01 - testing,UAT,TBD
-266,INSBFOS-12,170182,Rejected,C002974,TBD,TBD,[INSBFOS-4][INSBFOS-9] Defect: Unable to disable ID in diamond,UAT,TBD
+Issue key,Issue id,Status,Creator,Defect Type,Test Type,Feature Type,Summary,Labels,Labels.1,Modified Summary
+INSBFOS-1647,406256,New,C006808,Program Error,TBD,INSBFOS-861,[QUEST-7321][INSBFOS-1647]#Defect 8: Unable to search the PCW description via search filter description,TBD,TBD,QUEST-7321
+INSBFOS-1646,406046,New,C006808,Program Error,TBD,INSBFOS-861,[QUEST-7321][INSBFOS-1646]#Defect 7: Different Annual Premium (Negative amounts) ,TBD,TBD,QUEST-7321
+INSBFOS-1645,406045,New,C006808,Program Error,TBD,INSBFOS-861,[QUEST-7321][INSBFOS-1645]#Defect 6: OBN03 PCW code amount is not tallying from Diamond to GIS,TBD,TBD,QUEST-7321
+INSBFOS-1644,405106,Assigned,C003602,Program Error,UAT,INSBFOS-1627,[QUEST-14635/INSBFOS-1644] #Defect 4: C permit vehicle GLM (step 2-1) not tally with Req XML,TBD,TBD,QUEST-14635
+INSBFOS-1643,404935,Closed,C006808,Parameter/Setup Error,TBD,INSBFOS-861,QUEST-7321][INSBFOS-1643]#Defect 5: PCW codes are not populating in Diamond ,TBD,TBD,TBD
+INSBFOS-1642,404862,READY FOR TEST,C003602,Parameter/Setup Error,UAT,INSBFOS-1627,[QUEST-14635/INSBFOS-1642] #Defect 3: A permit vehicle GLM (step 1) not tally with Req XML,TBD,TBD,QUEST-14635
+INSBFOS-1641,404745,New,C006808,Program Error,TBD,INSBFOS-861,[QUEST-7321][INSBFOS-1641]#Defect 4: Jenkin jobs failed ,TBD,TBD,QUEST-7321
+INSBFOS-1640,404607,Assigned,C003602,Environment Error,UAT,INSBFOS-1627,[QUEST-14635/INSBFOS-1640] #Defect 2: Integration to GIS failed,TBD,TBD,QUEST-14635
+INSBFOS-1639,404601,Closed,C006808,UI / Cosmetic,TBD,INSBFOS-861,[QUEST-7321][INSBFOS-1639]#Defect 3: Two sub classes for Home SmartPLUS in POC setup screens,TBD,TBD,QUEST-7321
+INSBFOS-1638,403784,Closed,C003602,Environment Error,UAT,INSBFOS-1627,[QUEST-14635/INSBFOS-1638] #Defect 1: Unable to proceed cover note submission,TBD,TBD,QUEST-14635
+INSBFOS-1637,403643,Closed,C006808,Clarification,TBD,INSBFOS-861,[QUEST-7321][INSBFOS-1637]#Defect 2: Expiry date is editable,TBD,TBD,QUEST-7321
+INSBFOS-1636,403497,Closed,C006808,Program Error,TBD,INSBFOS-861,[QUEST-7321][INSBFOS-1636]#Defect 1: Export to Excel in Fire Tariff is encountering Error 500,TBD,TBD,QUEST-7321
+INSBFOS-1631,399969,READY FOR TEST,463346,Program Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1631] #Defect 18: Extra Coverage amount is not calculated using new formula when cover note is issued from SoapUI,TBD,TBD,QUEST-4324
+INSBFOS-1623,398949,READY FOR TEST,462883,Program Error,Operation Readiness Test (ORT),INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1623] Defect 03: EDMS Document Status Is Not Updated After Document Is Printed,TBD,TBD,Quest-8042
+INSBFOS-1622,398522,Closed,462883,Program Error,Operation Readiness Test (ORT),INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1622] Defect 02: Policy Get Points Although Printed Before ,TBD,TBD,Quest-8042
+INSBFOS-1620,397483,Closed,462883,Environment Error,Operation Readiness Test (ORT),INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1620] Defect 01: Document Status Is Not 'Ready' ,TBD,TBD,Quest-8042
+INSBFOS-1619,397464,Closed,463346,Environment Error,UAT,INSBFOS-1089,[QUEST-9986/INSBFOS-1619] #Defect 2: Unable to generate Cover Note & Policy Number,TBD,TBD,QUEST-9986
+INSBFOS-1611,396820,Closed,463346,Environment Error,UAT,INSBFOS-1089,[QUEST-9986/INSBFOS-1611] #Defect 1: Unable to retrieve data in the response body,TBD,TBD,QUEST-9986
+INSBFOS-1605,396721,Closed,463346,Environment Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1605] #Defect 17: Extra Coverage E111 & E109 are not added into Cover Note issue from SOAP UI,TBD,TBD,QUEST-4324
+INSBFOS-1593,394218,Closed,463346,Clarification,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1593] #Defect 16: Endorsement – Cover Note issued without extra coverage (Transition Case) New Premium Recalculated,TBD,TBD,QUEST-4324
+INSBFOS-1589,393235,Closed,C003602,Program Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1589] #Defect 15: NCD Allowed Percent % not auto populate,TBD,TBD,QUEST-4324
+INSBFOS-1587,392772,TEST IN PROGRESS,C003999,Program Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1587] #Defect 14: Endorsement remove Extra Coverage E102 did not refund as full,TBD,TBD,QUEST-4324
+INSBBOS-624,391166,New,450001,Program Error,Data Migration,TBD,To integrate data from MOC Diamond tab 2 to GIS Memo screen,TBD,TBD,TBD
+INSBFOS-1574,390996,Closed,C003602,Parameter/Setup Error,UAT,INSBFOS-58,[QUEST-4324/INSBBOS1574-] #Defect 13: Setup for E102 for Master Policy,TBD,TBD,QUEST-4324
+INSBFOS-1569,390422,Closed,463346,Program Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1569] #Defect : 12 Timeout error in SoapUI testing,TBD,TBD,QUEST-4324
+INSBFOS-1568,390213,Closed,C003602,Parameter/Setup Error,UAT,INSBFOS-58,[QUEST-4324/ INSBFOS-1568] #Defect 11: Setup for E109 for Masterpolicy,TBD,TBD,QUEST-4324
+INSBFOS-1572,390033,Closed,463346,Environment Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1572] #Defect 10: Environment Issue in downtime in Diamond on 27/8/2023 - 28/8/2023,TBD,TBD,QUEST-4324
+INSBFOS-1571,389999,Closed,463346,Environment Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1571] #Defect 9: Environment Issue in downtime in Diamond on 23/8/2023 - 24/8/2023,TBD,TBD,QUEST-4324
+INSBFOS-1570,389947,Closed,463346,Program Error,UAT,INSBFOS-58,[QUEST-4324/INSBBOS-1570] #Defect 8: Extra Coverage Not Matched in SoapUI testing,TBD,TBD,QUEST-4324
+INSBFOS-1554,389921,Closed,462883,Program Error,UAT,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1554] Defect 03: Document Status Did Not Change To 'Ready',TBD,TBD,Quest-8042
+INSBFOS-1553,389769,Closed,C003602,Program Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1553] #Defect 7: Bus detariff TA level not tally with GLM,TBD,TBD,QUEST-4324
+INSBFOS-1530,389345,Closed,C003602,Clarification,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1530] #Defect 6: Calculation for E101 and E102 for short period at endorsement page,TBD,TBD,QUEST-4324
+INSBFOS-1518,388666,Closed,462811,Program Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1518] #Defect 5: Unable to add Extra Coverage 109 in Master Policy,TBD,TBD,QUEST-4324
+INSBFOS-1509,387437,Closed,463346,Clarification,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1509] #Defect 4: Extra coverage in Diamond is not tally with XML file,cancel_defect,TBD,QUEST-4324
+INSBFOS-1508,387101,Closed,C003602,Program Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1508] #Defect 3: Endt Transition Case New Premium Recalculated,TBD,TBD,QUEST-4324
+INSBFOS-1506,386873,Closed,462883,Clarification,UAT,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1506] Defect 02: Incorrect Reimbursement Point Assigned,knowledge_gap,TBD,Quest-8042
+INSBFOS-1502,385814,Closed,462962,Others,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1502] #Defect 2: Refer Risk Approval Transition Case New Premium Recalculated,GLM_computation,TBD,QUEST-4324
+INSBFOS-1501,385791,Closed,462883,Environment Error,UAT,INSBFOS-1348,[Quest-8042/INSBFOS-1348/INSBFOS-1501] Defect 01: Unable to download documents,TBD,TBD,Quest-8042
+INSBFOS-1499,381901,Closed,C003602,Environment Error,UAT,INSBFOS-58,[QUEST-4324/INSBFOS-1499] #Defect 1: Unable to Integrate to GIS,Jenkins_Configuration,TBD,QUEST-4324
+INSBBOS-589,376863,Closed,462811,Program Error,UAT,INSBBOS-513,[QUEST-11548/INSBBOS-589] #Defect 8: Unable receive SMS after do Renewal Case,TBD,TBD,QUEST-11548
+INSBBOS-580,374910,Closed,463346,Program Error,UAT,INSBBOS-513,[QUEST-11548/INSBBOS-580] #Defect 7: Phone Number with more than 10 digits are not recognized by the system,TBD,TBD,QUEST-11548
+INSBBOS-579,374733,Closed,462811,Program Error,UAT,INSBBOS-513,[QUEST-11548/INSBBOS-579] #Defect 6: Using office number Issue CN and not record in SMS Blast Enquiry,TBD,TBD,QUEST-11548
+INSBBOS-578,374635,Closed,463021,Program Error,Operation Readiness Test (ORT),INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-578] #Defect 1: Error code in GIS,TBD,TBD,QUEST-6701
+INSBBOS-577,374336,Closed,462811,Program Error,UAT,INSBBOS-513,[QUEST-11548/INSBBOS-577] #Defect 5: Did not set the Agent Code in Agent Maintenance Screen but still get SMS,TBD,TBD,QUEST-11548
+INSBBOS-575,373919,Closed,462811,Program Error,UAT,INSBBOS-513,[QUEST-11548/INSBBOS-575] #Defect 4: Unable to get SMS,TBD,TBD,QUEST-11548
+INSBBOS-574,373763,Review In progress,407699,Program Error,TBD,TBD,[BAU- Diamond Production]motor endt POI is computed extra 1day,TBD,TBD,TBD
+INSBBOS-572,373603,New,407699,Program Error,TBD,TBD,[BAU- Diamond Production] system prompt decline risk for trailer SI less than 50K,TBD,TBD,TBD
+INSBFOS-1472,373594,Closed,462811,Environment Error,UAT,INSBBOS-513,[QUEST-11548/INSBBOS-1472] #Defect 3: Cannot proceed to the next screen in Online Insurance,TBD,TBD,QUEST-11548
+INSBFOS-1471,372521,Closed,462962,Design Error,Operation Readiness Test (ORT),INSBFOS-643,"[QUEST-7246/INSBFOS-1471] #Defect 2: ""Submitted JPJ On"" column in CBC Direct Report have date captured for Endorsement without JPJ",TBD,TBD,QUEST-7246
+INSBFOS-1427,370476,Closed,463020,Others,Operation Readiness Test (ORT),INSBFOS-1268,[QUEST 11508/INSBFOS-1427] Defect 1: Unable to generate Endorsement Slip after click submit and print,browser_setting,TBD,QUEST 11508
+INSBFOS-1423,369972,Closed,462962,Exist In Production,Operation Readiness Test (ORT),INSBFOS-643,[QUEST-7246/INSBFOS-1423] #Defect 1: Endorsement Cover Note with ZERO PREMIUM/REFUND PREMIUM Unable to be listed in Second Grid in CBC Reports - Submission Report for All Channel,Production-Issue,TBD,QUEST-7246
+INSBBOS-568,369431,Closed,462811,Program Error,UAT,INSBBOS-513,"[QUEST-11548/INSBBOS-568] #Defect 1: Campaign SMS - Agent Maintenance Modify screen when press ""F2"" not function",TBD,TBD,QUEST-11548
+INSBFOS-1404,367678,Closed,463021,Program Error,Operation Readiness Test (ORT),INSBFOS-1213,[QUEST-11345/INSBFOS-1404] #Defect 1: Diamond could not issue cover note,TBD,TBD,QUEST-11345
+INSBBOS-559,366498,Closed,463021,Program Error,UAT,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-559] #Defect 7: Vehicle make and model code is NULL for Motor Trade,TBD,TBD,QUEST-6701
+INSBFOS-1384,363292,Closed,462962,Design Error,TBD,INSBFOS-643,[QUEST-7246/INSBFOS-1384] #Defect 18: Block Transaction Email consists of 'Submitted' status Cover Notes when doing Renewal case,TBD,TBD,QUEST-7246
+INSBFOS-1383,363257,Closed,462962,Clarification,TBD,INSBFOS-643,[QUEST-7246/INSBFOS-1383] #Defect 17: 'Submission Pending' status Cover Note Not listed in CBC Block Transaction Email,TBD,TBD,QUEST-7246
+INSBFOS-1382,363256,Closed,462962,Program Error,TBD,INSBFOS-643,[QUEST-7246/INSBFOS-1382] #Defect 16: Submitted Cover Note Listed in CBC Block Transaction Email,TBD,TBD,QUEST-7246
+INSBFOS-1381,363255,Closed,462962,Design Error,TBD,INSBFOS-643,[QUEST-7246/INSBFOS-1381] #Defect 15: Grace Period is Not considered,Communication_gap,TBD,QUEST-7246
+INSBFOS-1380,363254,Closed,462962,Clarification,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1380] #Defect 14: Payment Reminder Email/SMS not received on last day of days allowed for payment before CBC Block,TBD,TBD,QUEST-7246
+INSBFOS-1371,361984,Closed,462883,Others,UAT,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1371]Defect 06: Pop-Up Message Shown When Transaction Is Selected To Make Payment,knowledge_gap,TBD,Quest-5849
+INSBFOS-1370,361869,Closed,462962,Parameter/Setup Error,Unit Test,INSBFOS-643,[QUEST-7246/INSBFOS-1370] #Defect 13: Intermediary will be Released after CBC Block without making payment,TBD,TBD,QUEST-7246
+INSBFOS-1369,360973,Closed,462883,Program Error,UAT,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1369]Defect 05: Unable To Make Payment For Transactions With Net Due Amount > RM0,TBD,TBD,Quest-5849
+INSBBOS-552,359789,Closed,463021,Program Error,UAT,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-552] #Defect 6: System allowed to perform endorsement in Diamond after completing GIS sum insured change,TBD,TBD,QUEST-6701
+INSBFOS-1366,359730,Closed,462883,Program Error,UAT,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1366]Defect 04: Matched Policies Did Not Display By Ascending Order,TBD,TBD,Quest-5849
+INSBFOS-1364,359495,Closed,462883,Program Error,UAT,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1364]Defect 03: Incorrect Payment Mode Shown in Printout,TBD,TBD,Quest-5849
+INSBFOS-1363,358969,Closed,462962,Data Error,UAT,INSBFOS-643,"[QUEST-7246/INSBFOS-1363] #Defect 12: CBC Non Compliance Summary Report ""Accepted by JPJ On"" column is empty",TBD,TBD,QUEST-7246
+INSBFOS-1357,358923,Closed,463021,Parameter/Setup Error,UAT,INSBFOS-1213,[QUEST-11345/INSBFOS-1357] #Defect 1: Jenkin Job 154b did not capture whole data from Diamond,Jenkins_Configuration,TBD,QUEST-11345
+INSBFOS-1354,358888,Closed,462811,Design Error,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1354] #Defect 11: Incorrect Quick Approve Refer Risk CBC pop-up message content,TBD,TBD,QUEST-7246
+INSBFOS-1352,358777,Closed,462811,Program Error,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1352] #Defect 10: CBC Direct Report does not have endorsement record,TBD,TBD,QUEST-7246
+INSBFOS-1351,358733,Closed,463020,Parameter/Setup Error,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1351] #Defect 9: CBC Direct Report Column Name Not Changed,missed_unit_testing,TBD,QUEST-7246
+INSBFOS-1337,358031,Closed,462962,Program Error,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1337] #Defect 8: Payment Reminder Email/SMS not received on last day allowed for payment before CBC Block,TBD,TBD,QUEST-7246
+INSBBOS-551,357968,Closed,463021,Others,UAT,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-551] #Defect 5: GIS could not receive CN issue date from Diamond (HCT),TBD,TBD,QUEST-6701
+INSBFOS-1336,357741,Closed,462811,Program Error,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1336] #Defect 7: Unable to do Renewal,TBD,TBD,QUEST-7246
+INSBBOS-550,357651,Closed,463021,Program Error,UAT,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-550] #Defect 4: Jenkin Job could not be found for Motor Others,TBD,TBD,QUEST-6701
+INSBBOS-549,357110,Closed,463021,Program Error,UAT,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-549] #Defect 3: Endorsement done in Diamond and integrated to GIS but Endorsement No. could not be found,TBD,TBD,QUEST-6701
+INSBBOS-548,357010,New,407699,Program Error,TBD,TBD,"[BAU- Diamond Production] fpx payment doesn't return receipt, redirect to empty page ",TBD,TBD,TBD
+INSBFOS-1334,356707,Closed,462811,Clarification,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1334] #Defect 6: Unable to do Sum Insured Endorsement ,TBD,TBD,QUEST-7246
+INSBFOS-1333,355928,Closed,462962,Parameter/Setup Error,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1333] #Defect 5: Cover Note Not Integrated to GIS,TBD,TBD,QUEST-7246
+INSBFOS-1332,355421,Closed,463020,Requirement Error,UAT,INSBFOS-643,"[QUEST-7246/INSBFOS-1332] #Defect 4: ""Convert to Cover Note"" button is enabled in the Premium Tab of Quotation",FRS_design_error,TBD,QUEST-7246
+INSBFOS-1329,355135,Closed,462962,Clarification,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1329] #Defect 3: Intermediary Able to Issue CN after CBC Manual Block,TBD,TBD,QUEST-7246
+INSBFOS-1328,354817,Closed,462962,Parameter/Setup Error,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1328] #Defect 2: Jenkins Job 90B - Diamond Endorsement to GIS failed to build,Jenkins_Configuration,TBD,QUEST-7246
+INSBFOS-1327,354132,Closed,462883,Program Error,UAT,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1327]Defect 02: Menu Name Not Changed ,TBD,TBD,Quest-5849
+INSBFOS-1325,353962,Closed,C003999,Program Error,UAT,INSBFOS-450,[Quest-5849/INSBFOS-450/INSBFOS-1325]Defect 01: Cover note unable to integrate from Diamond to GIS ,TBD,TBD,Quest-5849
+INSBBOS-546,353667,Closed,463021,Program Error,UAT,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-546] #Defect 2: Cover note generated in Diamond failed to integrate to GIS (CVC),TBD,TBD,QUEST-6701
+INSBFOS-1323,352304,Closed,462587,Program Error,Operation Readiness Test (ORT),INSBFOS-1188,[QUEST-11670/INSBFOS-1323] #Defect 4:Unable to integrate policy number via GIS,jenkin,TBD,QUEST-11670
+INSBFOS-1321,350186,Closed,462587,Program Error,Operation Readiness Test (ORT),INSBFOS-1188,[QUEST-11670/INSBFOS-1321] #Defect 3: Incorrect Policy Number display in Endorsement Enquiry GIS,TBD,TBD,QUEST-11670
+INSBFOS-1313,350103,Closed,462962,Program Error,Operation Readiness Test (ORT),INSBFOS-1188,[QUEST-11670/INSBFOS-1313] #Defect 2: Incorrect Area Code for Convert to Fleet Policy from Quotation Fleet Policy,TBD,TBD,QUEST-11670
+INSBBOS-519,349308,New,198999,Program Error,TBD,TBD,[Production Issue] WU 4202 - Motorist Plan A-No Sum Insured appear in vehicle and summary screen,TBD,TBD,TBD
+INSBBOS-509,346162,Closed,463021,Program Error,UAT,INSBBOS-318,[QUEST-6701/QUEST-8449/INSBBOS-509] #Defect 1: Cover note generated in Diamond failed to integrate to GIS,TBD,TBD,QUEST-6701
+INSBFOS-1264,343486,Rejected,C003602,Others,Operation Readiness Test (ORT),INSBFOS-1188,[QUEST-11670/INSBFOS-1264] #Defect 1: Master Policy unable to integrate to GIS,TBD,TBD,QUEST-11670
+INSBFOS-1225,341219,Closed,462962,Parameter/Setup Error,Operation Readiness Test (ORT),INSBFOS-941,[QUEST-9617/INSBFOS-1225] #Defect 5: Unable to Proceed Renewal ,Jenkins_Configuration,TBD,QUEST-9617
+INSBFOS-1212,339674,Closed,462587,Others,Operation Readiness Test (ORT),INSBFOS-941,[QUEST-9617/INSBFOS-1212] #Defect 5: Area Code in GIS not tally with Request XML,TBD,TBD,QUEST-9617
+INSBFOS-1211,339648,Closed,462962,Duplicate Error,Operation Readiness Test (ORT),INSBFOS-941,[QUEST-9617/INSBFOS-1211] #Defect 4: Endorsement Description Staging Record Not Found,TBD,TBD,QUEST-9617
+INSBBOS-496,339026,Closed,462962,Data mapping error,Operation Readiness Test (ORT),INSBFOS-941,[QUEST-9617/INSBBOS-496] #Defect 3: Incorrect area for area code transition case (New Endorsement CN Issuance),TBD,TBD,QUEST-9617
+INSBFOS-1202,337960,Closed,C003999,Parameter/Setup Error,Operation Readiness Test (ORT),INSBFOS-941,[QUEST-9617/INSBFOS-1202][REG] Defect 01: TS09 Convert quotation to cover note mismatch for GLM value,TBD,TBD,QUEST-9617
+INSBFOS-1201,337722,Closed,C003602,Parameter/Setup Error,Operation Readiness Test (ORT),INSBFOS-941,[QUEST-9617][INSBFOS-1201]-Defect 2 : Incorrect Make model name in GIS,TBD,TBD,QUEST-9617
+INSBBOS-492,337384,Review In progress,407699,Program Error,TBD,TBD,[BAU-Production Support] unable to perform alternative payment- AKS9182 ,Production-Issue,TBD,TBD
+INSBBOS-488,337348,Closed,453003,Environment Error,UAT,INSBBOS-513,[QUEST-11548/INSBBOS-488] #Defect 2: Diamond Premium Zero,TBD,TBD,QUEST-11548
+INSBFOS-1194,335787,Closed,453003,Program Error,TBD,INSBFOS-941,[Quest 9617|INSBFOS-1194][REG] Wrong vehicle group and no area code send to GIS,TBD,TBD,Quest 9617
+INSBFOS-1187,335520,Closed,462962,Environment Error,UAT,INSBFOS-643,[QUEST-7246/INSBFOS-1187] #Defect 1: Premium Zero,TBD,TBD,QUEST-7246
+INSBFOS-1164,327492,Closed,181463,Program Error,TBD,INSBFOS-941,[Quest 9617] [INSBFOS-1164] - Defect 22:  Defect Cancelled and replaced with wrong premium,Diamond,TBD,Quest 9617
+INSBFOS-1163,327176,Closed,453003,Program Error,TBD,INSBFOS-941,[Quest 9617 / INSBFOS-1163]- Defect 21 : Area code is not integrated to GIS,Diamond,TBD,Quest 9617 
+INSBFOS-1153,326022,Closed,181463,Program Error,UAT,INSBFOS-941,[Quest 9617 / INSBFOS-1153] - Defect 20 : Master Policy vehicles submitted but not integrated to GIS,DIAMOND,GIS,Quest 9617 
+INSBFOS-1152,325783,Closed,181463,Program Error,UAT,INSBFOS-941,[Quest 9617 / INSBFOS-1152] - Defect 19 : New Business - Tankers - Incorrect premium,DIAMOND,TBD,Quest 9617 
+INSBFOS-1151,325707,Closed,181463,Clarification,UAT,INSBFOS-941,[Quest 9617 / INSBFOS-1151] - Defect 18 : New Quotation Master Policy - premium incorrect,DIAMOND,TBD,Quest 9617 
+INSBFOS-1150,325428,Closed,453003,Program Error,TBD,INSBFOS-941,[QUEST-9617 / INSBFOS-1150] - Defect 17 : Transition case-Incorrect endorsement premium,TBD,TBD,QUEST-9617 
+INSBFOS-1148,324956,Closed,453003,Program Error,TBD,INSBFOS-941,[QUEST-9617 / INSBFOS-1148] - Defect 16 : Annualised premium field for endorsement transaction,TBD,TBD,QUEST-9617 
+INSBFOS-1145,324691,Closed,453003,Program Error,TBD,INSBFOS-941,[QUEST-9617 / INSBFOS-1145] - Defect 15  : Unable to integration endorsement transaction to GIS,TBD,TBD,QUEST-9617 
+INSBFOS-1138,324150,Closed,453003,Program Error,UAT,INSBFOS-941,[QUEST-9617 / INSBFOS-1138] - Defect 14 : Wrong area code when editing a draft cover note issued by Cancel and Replacement,TBD,TBD,QUEST-9617 
+INSBFOS-1137,323829,Closed,C006588,Parameter/Setup Error,UAT,INSBFOS-941,[QUEST-9617 / INSBFOS-1137] - Defect 13 : Incorrect After Deployment GLM premium calculation for Taxi Comprehensive and TPFT.,TBD,TBD,QUEST-9617 
+INSBFOS-1136,323654,Closed,401206,Program Error,UAT,INSBFOS-941,[QUEST-9617 / INSBFOS-1136]- Defect 12 : Motor Rate - Incorrect GLM premium calculation for Taxi Comprehensive and TPFT,TBD,TBD,QUEST-9617 
+INSBFOS-1133,323132,Closed,181463,Program Error,UAT,INSBFOS-941,[QUEST-9617] [INSBFOS-1133] - Defect 11 : Quotation convert to covernote_PCP wrong premium,TBD,TBD,QUEST-9617
+INSBFOS-1132,322934,Closed,453003,Program Error,TBD,INSBFOS-941,[QUEST-9617] [INSBFOS-1132] - Defect 10 : Incorrect premium for GV&Tankers,TBD,TBD,QUEST-9617
+INSBFOS-1130,322539,Closed,452730,Program Error,TBD,INSBFOS-750,[QUEST-8319] GIP for 7 days for commercial car is not correct.,TBD,TBD,QUEST-8319
+INSBFOS-1129,322714,Closed,C006588,Data mapping error,UAT,INSBFOS-941,[QUEST-9617 / INSBFOS-1129 ] -Automation Defect 2 :  Vehicle Search Function text field replace Vehicle Make to Vehicle Make & Model in GLM ,TBD,TBD,QUEST-9617 
+INSBFOS-1128,322703,Closed,C006588,UI / Cosmetic,UAT,INSBFOS-941,[QUEST-9617 / INSBFOS-1128]- Automation Defect 1: Unable to click Motor icon in transaction page,TBD,TBD,QUEST-9617 
+INSBFOS-1127,322315,Closed,181463,Program Error,UAT,INSBFOS-941,[QUEST-9617] [INSBFOS-1127] - Defect 9 : Defect Wrong Quotation Premium_private car,Diamond,TBD,QUEST-9617
+INSBFOS-1126,322082,Closed,453003,Program Error,TBD,INSBFOS-941,[QUEST-9617 / INSBFOS-1126] - Defect 8 : Unable to download UW report in Diamond,TBD,TBD,QUEST-9617 
+INSBFOS-1125,321901,Closed,453003,Program Error,TBD,INSBFOS-941,[QUEST-9617|INSBFOS-1125]- defect 7 : Premium Incorrect for Endorsement transaction,TBD,TBD,QUEST-9617
+INSBFOS-1124,321773,Closed,457361,Program Error,UAT,INSBFOS-941,[QUEST-9617|INSBFOS-1124] -defect 6:Transition Case Act premium not match PC-COMP,DIAMOND,TBD,QUEST-9617
+INSBFOS-1109,321728,Closed,453003,Program Error,TBD,INSBFOS-941,[QUEST-9617|INSBFOS-1109]- Defect 5 : Premium incorrect for replacement CN,Diamond,TBD,QUEST-9617
+INSBFOS-1108,321478,Closed,453003,Program Error,UAT,INSBFOS-941,[QUEST-9617|INSBFOS-1108]-Defect 4 : Area code is not display in UW Report,Diamond,TBD,QUEST-9617
+INSBFOS-1107,321473,Closed,453003,Program Error,UAT,INSBFOS-941,[QUEST-9617|INSBFOS-1107]-Defect 3 : Incorrect Vehicle Grouping,Diamond,TBD,QUEST-9617
+INSBFOS-1105,320872,Rejected,462587,Program Error,Operation Readiness Test (ORT),INSBFOS-423,QUEST-7380/INSBFOS-1105] #Defect 2: MSV Shared API WS04 & WS10 does not meet expected result,TBD,TBD,TBD
+INSBFOS-1100,320808,Closed,462587,Program Error,Operation Readiness Test (ORT),INSBFOS-423,[QUEST-7380/INSBFOS-1100] #Defect 1: Unable to proceed to issue renewal quotation ,TBD,TBD,QUEST-7380
+INSBFOS-1096,319685,Closed,C006588,Parameter/Setup Error,UAT,INSBFOS-941,[QUEST-9617 / INSBFOS-1096 ]-Defect 2: Job10B failed to integrate active policy back to Diamond due to field size error ,TBD,TBD,QUEST-9617 
+INSBFOS-1093,318713,Closed,C006588,Parameter/Setup Error,UAT,INSBFOS-941,[QUEST-9617 / INSBFOS-1093]-Defect 1: Integration job 5551B failed due to error,TBD,TBD,QUEST-9617 
+INSBBOS-458,315607,Closed,407699,Program Error,TBD,TBD,[BAU-Production Support] no cancellation print/ after issue cancellation endorsement for IG and FW policy,TBD,TBD,TBD
+INSBFOS-1082,313526,Closed,C003602,Program Error,UAT,INSBFOS-478,[Quest-5086][INSBFOS-1082] Defect 4 : Personal accident module unable to connect to EDMS ,TBD,TBD,Quest-5086
+INSBFOS-1079,312028,Closed,462587,Program Error,TBD,INSBFOS-423,[QUEST-7380/INSBFOS-1079] #Defect 14:Unable to integrate cover note via Jenkin job 90B,TBD,TBD,QUEST-7380
+INSBBOS-454,311614,Closed,407699,Program Error,TBD,TBD,"[BAU-Production Support]cover note cancellation successful, but cn status still show as APPROVED",TBD,TBD,TBD
+INSBFOS-1074,310761,Closed,462587,Program Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-1074] #Defect 13: Revised Mileage Limit does not meet expected result ,TBD,TBD,QUEST-7380
+INSBBOS-453,309082,Closed,C003999,Program Error,UAT,INSBBOS-318,[QUEST-6701/INSBBOS-453] Defect 01: Unable to generate claim report,TBD,TBD,QUEST-6701
+INSBFOS-1067,308748,Closed,452730,Others,UAT,INSBFOS-862,[BUG#2] Batch job for 30b 35b and 40b not functioning,TBD,TBD,TBD
+INSBBOS-451,308337,Closed,C003602,Program Error,UAT,INSBBOS-319,[QUEST-8914][INSBFOS-451]#Defect 4: Claim amount in details report,TBD,TBD,QUEST-8914
+INSBBOS-450,308334,Closed,C003602,Program Error,UAT,INSBBOS-319,[QUEST-8914][INSBFOS-450]#Defect 3: Error on surplus count,TBD,TBD,QUEST-8914
+INSBBOS-449,308333,Closed,C003602,Program Error,UAT,INSBBOS-319,[QUEST-8914][INSBFOS-449]#Defect 2: field length for SI Band and Actual SI ,TBD,TBD,QUEST-8914
+INSBBOS-448,308332,Closed,C003602,Program Error,UAT,INSBBOS-319,[QUEST-8914][INSBFOS-448]#Defect 1: Error message when processing /generate report,TBD,TBD,QUEST-8914
+INSBFOS-1061,306534,Closed,462502,Program Error,Operation Readiness Test (ORT),INSBFOS-723,[QUEST-8397][INSBFOS-1061]#Defect 14: Wrong Vehicle Policy Type in EPO File,TBD,TBD,QUEST-8397
+INSBFOS-1057,306214,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-1057]#Defect 23: Unable to run JPJ job,TBD,TBD,Quest-5589
+INSBFOS-1031,304565,Closed,462502,Program Error,Operation Readiness Test (ORT),INSBFOS-723,[QUEST-8397/INSBFOS-1031]#Defect 13: Integration Fail for RRA as Extra Coverage,TBD,TBD,QUEST-8397
+INSBFOS-1024,304329,Closed,462587,Data mapping error,UAT,INSBFOS-723,[QUEST-8397/INSBFOS-1024]#Defect 12:  No records found when search policy number or cover note number at policy search,TBD,TBD,QUEST-8397
+INSBFOS-1023,304408,Closed,462811,Program Error,UAT,INSBFOS-723,[QUEST-8397/INSBFOS-1023]#Defect 11: RRA in cross selling not auto populate in renewal screen,TBD,TBD,QUEST-8397
+INSBFOS-1022,304190,Closed,462502,Program Error,Operation Readiness Test (ORT),INSBFOS-723,(QUEST-8397)[INSBFOS-1022]#Defect 10: Unable to add UBT for endorsement ,TBD,TBD,TBD
+INSBFOS-1021,304057,Closed,452730,Program Error,UAT,INSBFOS-862,[QUEST-9008/INSBFOS-1021] Defect#1- PP list did not print on Document.,TBD,TBD,QUEST-9008
+INSBFOS-1020,303846,Closed,C003602,Program Error,UAT,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 22: Integration 5551B job failed,TBD,TBD,Quest-5589
+INSBFOS-1013,303241,Closed,462811,Program Error,UAT,INSBFOS-723,[INSBFOS-723]#Defect 9:  cover note number and vehicle number blank when do Renewal with RRA as cross selling ,TBD,TBD,TBD
+INSBFOS-1012,303240,Closed,462587,Parameter/Setup Error,UAT,INSBFOS-723,[QUEST-8397/INSBFOS-1012] #Defect 08:Unable to integrate cover note via Jenkin job 5551B,TBD,TBD,QUEST-8397
+INSBFOS-1003,302244,Closed,462502,Program Error,Operation Readiness Test (ORT),INSBFOS-723,[INSBFOS-723]#Defect 7: Integration fail for Motor-Others Cases with RRA,TBD,TBD,TBD
+INSBFOS-1002,301719,Closed,C005922,Program Error,UAT,INSBFOS-731,[QUEST-7321/INSBFOS-1002] #Defect 02: Diamond Failed to Connect EDMS,TBD,TBD,QUEST-7321
+INSBFOS-1001,301579,Closed,C003602,Program Error,TBD,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 21: Receive incorrect Cover Note Declined Template,TBD,TBD,Quest-5589
+INSBFOS-999,301610,Closed,462502,Program Error,Operation Readiness Test (ORT),INSBFOS-723,[INSBFOS-723]#Defect 6: Integration fail for RRA cross selling,TBD,TBD,TBD
+INSBFOS-993,301519,Closed,462587,Program Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-993] #Defect 11: The replacement cover note number not found in client profile,TBD,TBD,QUEST-7380
+INSBFOS-992,300731,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 20: Incorrect cover note status when MPGS void fail  ,TBD,TBD,Quest-5589
+INSBFOS-991,300482,Closed,462502,Program Error,UAT,INSBFOS-723,[INSBFOS-723]#Defect 5: RRA as Extra Coverage Disappear after Cancel With Replacement   ,TBD,TBD,TBD
+INSBFOS-987,300665,Closed,462502,Program Error,UAT,INSBFOS-723,[INSBFOS-723]#Defect 4: PDS Document are Not Downloaded in the Latest Version,TBD,TBD,TBD
+INSBFOS-1018,300288,Closed,462587,Parameter/Setup Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-1018] #Defect 10: Reference number not found in motor saver approval,TBD,TBD,QUEST-7380
+INSBFOS-1015,300276,Closed,462587,Program Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-1015] #Defect 09: WS04 Submission required motor saver approval,TBD,TBD,QUEST-7380
+INSBBOS-429,300275,Closed,407699,Program Error,TBD,TBD,"[BAU-Production Support] endorsement cancellation successful, but endorsement status still show as APPROVED",TBD,TBD,TBD
+INSBFOS-984,300356,Closed,462502,Program Error,Operation Readiness Test (ORT),INSBFOS-723,[INSBFOS-723]#Defect 3: UW Remark Incorrect,TBD,TBD,TBD
+INSBBOS-428,300270,Closed,407699,Program Error,TBD,TBD,[BAU-Production Support] Vehicle no auto updated as NA for new registration cn ,TBD,TBD,TBD
+INSBFOS-1019,300259,Closed,462587,Environment Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-1019] #Defect 8: The odometer image unable to find in EDMS.,TBD,TBD,QUEST-7380
+INSBFOS-983,300321,Closed,462502,Program Error,UAT,INSBFOS-723,[INSBFOS-723]#Defect 2: Missing Details in  EPO Text File ,TBD,TBD,TBD
+INSBFOS-982,299111,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162] #Defect 2:Action column filtering in Renewal Listing and Task List,TBD,TBD,Quest-5589
+INSBFOS-981,299106,Closed,C003602,Program Error,TBD,INSBFOS-162,[Quest-5589][INSBFOS-162] #Defect 1: Renewal status column filtering in Renewal Listing,TBD,TBD,Quest-5589
+INSBFOS-979,298920,Rejected,C005922,Program Error,TBD,INSBFOS-731,[QUEST-7321/INSBFOS-979] Defect 01: The value for Discount and Commission in Generic Cover Note shall exceed 0,Diamond,TBD,QUEST-7321
+INSBFOS-1017,298829,Closed,462587,Parameter/Setup Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-1017] #Defect 07: MSV Shared API WS10 does not meet expected result ,TBD,TBD,QUEST-7380
+INSBBOS-415,298818,Closed,462811,Program Error,TBD,INSBBOS-310,[INSBBOS-310] Defect 01:Renewal notice print out  is blank Medisure repricing renewal notice,TBD,TBD,TBD
+INSBFOS-978,298555,Rejected,462502,Program Error,TBD,INSBFOS-723,[INSBFOS-723]#Defect 1: Different Vehicle Number in Quotation for Cross Selling ,TBD,TBD,TBD
+INSBFOS-1016,298535,Closed,462587,Parameter/Setup Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-1016] #Defect 06: MSV Shared API WS04 does not meet expected result ,TBD,TBD,QUEST-7380
+INSBFOS-959,297810,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 19: Contact number display in email is incorrect,TBD,TBD,Quest-5589
+INSBFOS-1014,297634,Closed,462587,Program Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-1014] #Defect 05: Motor saver section is missing in Diamond extra coverage screen,TBD,TBD,QUEST-7380
+INSBFOS-953,296410,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,"[Quest-5589][INSBFOS-162]#Defect 18: Motor refer risk - JPJ Rejected within 24 hours, No Auto Refund",TBD,TBD,Quest-5589
+INSBFOS-938,295014,Closed,462587,Program Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-938] #Defect 04:Unable to integrate from GIS to Diamond via Jenkin job 30B,TBD,TBD,QUEST-7380
+INSBFOS-936,294860,READY FOR TEST,453003,Program Error,UAT,TBD,[QUEST-5354][INSBFOS-284] Defect #3-Error page in Reimbursement Log Point Report - Export to excel function,TBD,TBD,QUEST-5354
+INSBFOS-935,294770,READY FOR TEST,181463,Program Error,UAT,INSBBOS-50,[Quest-5354][INSBFOS-284] Defect # 2 - Transition case handling issue - Product Setup without MCO but MCO code integrated to GIS,TBD,TBD,Quest-5354
+INSBBOS-401,294930,Review In progress,407699,Program Error,TBD,TBD,[BAU-Production Support] refund premium is different than calculated ,TBD,TBD,TBD
+INSBFOS-926,294179,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-478,[Quest-5086][INSBFOS-478] Defect 3 : Diamond unable to connect to EDMS,TBD,TBD,Quest-5086
+INSBFOS-925,294204,Closed,C003602,Program Error,TBD,INSBFOS-162,"[Quest-5589][INSBFOS-162]#Defect 17: JPJ Rejected within 24 hours, No Auto Refund",TBD,TBD,Quest-5589
+INSBFOS-891,294004,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 16: WhatsApp notification setup,TBD,TBD,Quest-5589
+INSBFOS-883,292755,Closed,462587,Program Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-883] #Defect 03:Unable to integrate cover note via Jenkin job 5551B,TBD,TBD,QUEST-7380
+INSBFOS-859,291617,Closed,C003602,UI / Cosmetic,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 15: IOS Screen cosmetic issue at OTP screen ,TBD,TBD,Quest-5589
+INSBBOS-389,291152,Review In progress,407699,Program Error,TBD,TBD,[BAU-Production Support] OR not integrate due to PM1448748,TBD,TBD,TBD
+INSBFOS-851,290779,Closed,462587,Program Error,TBD,INSBFOS-423,[QUEST-7380/INSBFOS-851] #Defect 02: Diamond at premium tab vehicle number & motor premium details are blank,TBD,TBD,QUEST-7380
+INSBBOS-388,290843,Closed,407699,Program Error,TBD,TBD,[BAU-Production Support] Diamond did not send extra benefit amount in cew table to GIS,TBD,TBD,TBD
+INSBBOS-387,290840,Closed,407699,Program Error,TBD,TBD,[BAU-Production Support] Item amount not tally with master amount (ESOA),TBD,TBD,TBD
+INSBFOS-850,290437,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 13: Screen cosmetic issue at OTP screen,TBD,TBD,Quest-5589
+INSBFOS-849,290424,Closed,C003602,Others,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 14: Unable to send quote thru WhatsApp when using jpj data and non jpj data,TBD,TBD,Quest-5589
+INSBFOS-848,290421,Rejected,462587,Program Error,UAT,INSBFOS-423,[QUEST-7380/INSBFOS-423] UAT Defect 01:Reference number not found in agent refer risk approval screen,TBD,TBD,QUEST-7380
+INSBFOS-838,289606,READY FOR TEST,453003,Program Error,UAT,TBD,[QUEST-5354][INSBFOS-284] Defect #1-No active policy return to Diamond,TBD,TBD,QUEST-5354
+INSBFOS-781,279465,Closed,461631,Program Error,TBD,INSBFOS-192,[QUEST-5584][INSBFOS-192] #Defect 1: Fire Job 150b in Jenkins unable to run.,TBD,TBD,QUEST-5584
+INSBFOS-780,278605,Closed,462587,Program Error,UAT,INSBFOS-712,[QUEST-8528/INSBFOS-780] #Defect 01: Document didn't print out the latest pdf as expected result,TBD,TBD,QUEST-8528
+INSBFOS-779,278340,Closed,C003602,Program Error,TBD,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 12: Unable to send quote to WhatsApp after deploy ,TBD,TBD,Quest-5589
+INSBFOS-742,274096,Closed,461631,Program Error,TBD,INSBFOS-192,[QUEST-5584][INSBFOS-192] #Defect 1:Non-Motor Renewal Centre cannot integrate Diamond-GIS-Diamond.,TBD,TBD,QUEST-5584
+INSBFOS-740,273831,Closed,462502,Others,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 11: Did not receive email when JPJ rejected,TBD,TBD,Quest-5589
+INSBFOS-738,273668,Closed,462587,Program Error,UAT,INSBBOS-200,[QUEST-7711/INSBFOS-738] #Defect 02: Total premium is zero for Marine Open Cover,TBD,TBD,QUEST-7711
+INSBBOS-316,273512,Closed,C003999,Program Error,UAT,INSBBOS-200,[QUEST-7711][INSBBOS-200]UAT Defect 01: CN Not able to integrate to GIS,TBD,TBD,QUEST-7711
+INSBFOS-711,270998,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 10: Unable to receive Mail to customer when cove note generate with refer risk,TBD,TBD,Quest-5589
+INSBFOS-699,270479,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 9: Unable to sent WhatsApp message for Chinese template,TBD,TBD,Quest-5589
+INSBFOS-698,270474,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 8: Chinese Language Template not able to display correctly after setup,TBD,TBD,Quest-5589
+INSBFOS-696,269551,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 7: Payment mode not updated in client profile,TBD,TBD,Quest-5589
+INSBFOS-695,268902,Closed,C003602,Program Error,Operation Readiness Test (ORT),INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 6: Unable to proceed payment for Refer Risk case,TBD,TBD,Quest-5589
+INSBFOS-694,268019,New,C005015,Program Error,TBD,TBD,ESOA | Premium mismatch between Paymentmaster and paymentitem,TBD,TBD,TBD
+INSBFOS-693,268016,New,C005015,Program Error,TBD,TBD,Medical | System unable to display policies for renewal issuance,TBD,TBD,TBD
+INSBFOS-689,267171,Closed,C003602,Program Error,UAT,INSBFOS-478,	[Quest-5086][INSBFOS-478] Defect 2 : Error after click print and send to JPJ,TBD,TBD,Quest-5086
+INSBBOS-309,265697,Review In progress,407699,Program Error,TBD,TBD,[BAU-Production Support] CBC blocked not immediately released after payment done ,TBD,TBD,TBD
+INSBBOS-288,264030,Closed,C003602,Program Error,UAT,INSBBOS-197,[Quest-7473][INSBFOS-197] #Defect 1: Error to enquire endorsement,TBD,TBD,Quest-7473
+INSBFOS-638,262215,Closed,C003602,Program Error,TBD,INSBFOS-478,[Quest-5086][INSBFOS-478] Defect 1 : Swagger not working ,TBD,TBD,Quest-5086
+INSBFOS-629,257583,Closed,C003602,Program Error,UAT,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 5: Error in Filtering in Whatsapp Message Sent report,TBD,TBD,Quest-5589
+INSBFOS-583,257009,Closed,461631,Data Error,Operation Readiness Test (ORT),INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 7:AML MQ Request and Response Log Report do not generate,TBD,TBD,QUEST-6919
+INSBFOS-484,256645,Closed,C003602,Program Error,UAT,INSBFOS-162,[Quest-5589][INSBFOS-162] #Defect 4: Unable to proceed for payment,TBD,TBD,Quest-5589
+INSBFOS-481,256426,Closed,461631,Clarification,Operation Readiness Test (ORT),INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 6:Unable to integrate new business MOTOR from Diamond to GIS,TBD,TBD,QUEST-6919
+INSBFOS-480,256423,Closed,461631,Others,Operation Readiness Test (ORT),INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 5:Unable to complete payment in OI.,TBD,TBD,QUEST-6919
+INSBFOS-477,256168,Closed,C003602,Environment Error,UAT,INSBFOS-162,[Quest-5589][INSBFOS-162]#Defect 3: Motor premium not display,TBD,TBD,Quest-5589
+INSBFOS-476,255864,Closed,C003602,Others,Operation Readiness Test (ORT),INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 4: Unable to integrate FW,TBD,TBD,QUEST-6919
+INSBFOS-474,255564,Closed,461631,Data Error,Operation Readiness Test (ORT),INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 3:Response code is not tally with expected result,TBD,TBD,QUEST-6919
+INSBFOS-463,254425,Closed,C003602,TBD,Operation Readiness Test (ORT),INSBFOS-387,[Quest-6919][NSBFOS-387] #Defect02 : system Route for Customer Screening Approval when passport No is end with digit -1,TBD,TBD,Quest-6919
+INSBFOS-462,254390,Closed,461631,Data Error,UAT,INSBFOS-387,[QUEST-6919][INSBFOS-387] #Defect 1:AML MQ Request and Response Log Report do not generate,Diamond,TBD,QUEST-6919
+INSBFOS-461,253882,Closed,C005922,Requirement Error,TBD,INSBFOS-186,"[QUEST-5521/INSBFOS-186] ""Cancellation Letter"" and ""GST Credit Note"" are not disable in the Cancellation Enquiry screen",TBD,TBD,QUEST-5521
+INSBFOS-457,251912,Closed,C003520,Program Error,UAT,INSBFOS-186,[QUEST-5521/INSBFOS-186] Diamond Motor JPJ status is Blank after CN cancelled,TBD,TBD,QUEST-5521
+INSBFOS-454,251685,Closed,C005922,Program Error,UAT,INSBFOS-186,[QUEST-5521/INSBFOS-186] JPJ Status shows 'Accepted by JPJ' in Client Profile,TBD,TBD,QUEST-5521
+INSBFOS-453,251329,Closed,C005922,Program Error,UAT,INSBFOS-186,CLONE - [QUEST-5521/INSBFOS-186] Diamond at Premium tab NCD Vehicle number & Premium details are blank,TBD,TBD,QUEST-5521
+INSBBOS-175,250587,Closed,461587,Program Error,UAT,INSBBOS-34,[QUEST-3955/INSBBOS-34] #Defect 01: Motor Endorsement Screen Issue,TBD,TBD,QUEST-3955
+INSBFOS-444,250520,Closed,C005922,Program Error,UAT,INSBFOS-186,[QUEST-5521/INSBFOS-186] Diamond Motor Unable to Cancel the CN in Client Profile screen,TBD,TBD,QUEST-5521
+INSBFOS-443,249629,Closed,461632,Program Error,UAT,INSBFOS-291,[QUEST-5666/INSBFOS-291]Defect 03: The proposal form and auto-debit form page are blank and Unable to get Covernote,TBD,TBD,QUEST-5666
+INSBFOS-441,249363,Closed,C003520,Program Error,UAT,INSBFOS-186,"Defect [UAT] [QUEST-5521/INSBFOS-186] Diamond Motor issue while click on - ""Print and Send to JPJ""",TBD,TBD,TBD
+INSBFOS-439,249001,Closed,461632,Data Error,UAT,INSBFOS-291,[QUEST-5666/INSBFOS-291]Defect 02: Unable to display Questionnaire when update covernote for date 3/11/2022,TBD,TBD,QUEST-5666
+INSBBOS-160,247307,New,198999,Program Error,TBD,TBD,[Production Issue] System prompt error message during endorsement confirmation - PA,TBD,TBD,TBD
+INSBFOS-428,247123,Closed,C003520,Others,UAT,INSBFOS-186,[QUEST-5521/INSBFOS-186] Jenkins batch job not yet setup,TBD,TBD,QUEST-5521
+INSBFOS-422,246871,Closed,C003520,Program Error,UAT,INSBFOS-186,[QUEST-5521/INSBFOS-186] Diamond at Premium tab NCD Vehicle number & Premium details are blank,TBD,TBD,QUEST-5521
+INSBBOS-158,246835,Review In progress,407699,Program Error,TBD,TBD,[Production Support]Diamond send wrong batch No. for manual credit card,TBD,TBD,TBD
+INSBFOS-415,246321,Closed,461632,Program Error,UAT,INSBFOS-291,[QUEST-5666/INSBFOS-291]Defect 01: Unable to Display the Plan Details,TBD,TBD,QUEST-5666
+INSBFOS-385,243852,Closed,461631,Program Error,UAT,INSBFOS-352,[Quest-6462][INSBFOS-352] #Defect 01: eFlyers not display for reprint document.,Diamond,TBD,Quest-6462
+INSBBOS-150,242365,Closed,C003602,Program Error,UAT,INSBBOS-61,[Quest-5555][INSBFOS-61] #Defect04 : Peril not reflect ,GIS,TBD,Quest-5555
+INSBBOS-142,241084,Closed,C003602,Program Error,UAT,INSBBOS-61,[Quest-5555][INSBBOS-61][UAT] #Defect 03: Unable to renew policy,TBD,TBD,Quest-5555
+INSBBOS-139,240793,Closed,C003602,Program Error,UAT,INSBBOS-61,[Quest-5555][INSBBOS-61][UAT] #Defect 02: Incorrect gross premium,TBD,TBD,Quest-5555
+INSBBOS-138,240792,Closed,C003602,Program Error,UAT,INSBBOS-61,[Quest-5555][INSBBOS-61][UAT] #Defect 01: Incorrect Service tax and commission ,TBD,TBD,Quest-5555
+INSBFOS-351,234586,Closed,C003999,Others,Operation Readiness Test (ORT),INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 01:ISM connection down in Regression,TBD,TBD,QUEST-4130
+INSBBOS-109,228015,Closed,461632,Others,UAT,INSBBOS-89,[QUEST-5323/INSBBOS-89]Defect 02: Missing Bank Branch code at Bank Ref No field. & Wrongly Coverage Type Setup,TBD,TBD,QUEST-5323
+INSBBOS-128,224829,Closed,461632,Program Error,UAT,INSBBOS-89,[QUEST-5323/INSBBOS-89] Defect 01: prestige PA integration error from Diamond to GIS,TBD,TBD,QUEST-5323
+INSBFOS-322,223380,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 12 : GIS Encountered the error to add the payee details before perform the manual refund,TBD,TBD,QUEST-4130
+INSBFOS-300,219695,Rejected,C003999,Others,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 11 : Diamond - Incorrect total amount when make payment via payment submission or upfront(TS03),TBD,TBD,QUEST-4130
+INSBFOS-299,219659,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 10 : Diamond -Missing the PTV details from the refer risk approval(TS25),TBD,TBD,QUEST-4130
+INSBFOS-290,218452,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 09 : TS08 - Encountered the error unable convert to cover note during the quotation renewal,TBD,TBD,QUEST-4130
+INSBFOS-289,218421,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 08 : Diamond is not picking up CN after integration from GIS during renewal transaction,TBD,TBD,QUEST-4130
+INSBFOS-288,218412,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 07 : Diamond is not picking up CN after integration from GIS,TBD,TBD,QUEST-4130
+INSBFOS-287,218403,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 06 : Pay by gross and Diamond PTV amount issued,TBD,TBD,QUEST-4130
+INSBFOS-286,218399,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 05: PTV voucher number and amount missing in GIS screen,TBD,TBD,QUEST-4130
+INSBFOS-283,214730,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 04: PTV voucher number missing on the policy schedule when payment has been submitted,TBD,TBD,QUEST-4130
+INSBBOS-82,213928,New,407699,Program Error,TBD,TBD,[Production Support] undeclared payment report didn’t loadall the undeclared endorsement cn ,TBD,TBD,TBD
+INSBFOS-269,213342,Closed,C003999,Others,UAT,INSBFOS-56, [QUEST-4130][INSBFOS-56]Defect 03: Unable to generate the epolicy with PTV case,TBD,TBD,QUEST-4130
+INSBFOS-252,211906,Closed,C003999,Program Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 02: Unable to convert to covernote with PTV when make the payment,TBD,TBD,QUEST-4130
+INSBBOS-72,211375,New,407699,Program Error,TBD,TBD,[Production Support] Agent unable to check float balance in diamond system ,TBD,TBD,TBD
+INSBFOS-248,210327,Closed,C003999,Infrastructure Error,UAT,INSBFOS-56,[QUEST-4130][INSBFOS-56]Defect 01:ISM connection down ,TBD,TBD,QUEST-4130
+INSBFOS-141,204163,New,406803,Program Error,TBD,TBD,[production support] Add on benefits for Pos Malaysia,TBD,TBD,TBD
+INSBFOS-139,203290,Review In progress,198753,Data Error,TBD,TBD,Production Support - PG1008110M - HAZRINAZ - Double Payment Record in Diamond ,TBD,TBD,TBD
+INSBFOS-138,203000,Review In progress,199622,Program Error,UAT,TBD,Marine Cargo - Sum insured becomes incorrect in GIS,TBD,TBD,TBD
+INSBBOS-48,202993,New,199622,Program Error,TBD,TBD,EGL files for April 2022,TBD,TBD,TBD
+INSBFOS-135,202778,New,199622,Program Error,TBD,TBD,All MAX PA policies not invited ,TBD,TBD,TBD
+INSBFOS-133,202590,New,199622,Program Error,TBD,TBD,Policy issued in diamond system doesn’t reflect the alias code to Tera Term,TBD,TBD,TBD
+INSBBOS-46,202265,New,199622,Program Error,TBD,TBD,QUOTA SHARE ATP/ ATSM,TBD,TBD,TBD
+INSBFOS-128,201857,Closed,199622,Program Error,TBD,TBD,To fix Diamond motor integration issue for the payment master integration failure due to database column large not enough,TBD,TBD,TBD
+INSBBOS-31,199531,New,407699,TBD,TBD,TBD,[Production Support] Request for API Additional Documents and Server Whitelist Request,TBD,TBD,TBD
+INSBBOS-28,198956,Closed,198753,Design Error,TBD,TBD,Online Insurance and White Label are not in responsive to smaller screen size [mobile].,TBD,TBD,TBD
+INSBBOS-23,195597,New,407699,TBD,TBD,TBD,[Production Support]Error during FWCMS response data processing,TBD,TBD,TBD
+INSBFOS-80,191902,New,407699,TBD,TBD,TBD,[Production Support] CEO Signature Misaligned- Marine Cargo ,TBD,TBD,TBD
+INSBFOS-76,190860,Review In progress,198753,TBD,TBD,TBD,Production Support-Premium not computed for both New business and renewal of certain Goods vehicle (Direct a/c),TBD,TBD,TBD
+INSBFOS-71,190546,Closed,198753,TBD,TBD,TBD,Production Support-Agent not receiving CBC reminder one day before it breach CBC (JB5008150 (HONG LEE AUTO ENTERPRISE ) ,PROD,TBD,TBD
+INSBFOS-64,188755,Closed,198999,Program Error,TBD,TBD,[Production Issue] Cancel cover note _ BLH9166 & BLH2999 ,TBD,TBD,TBD
+INSBFOS-62,188282,Assigned,406803,TBD,TBD,TBD,[Production Support] Customer did not receive SMS notification for MSV renewal,TBD,TBD,TBD
+INSBFOS-45,180862,Closed,452730,Environment Error,TBD,TBD,PRODUCTION - xxxxxx,TBD,TBD,TBD
+INSBFOS-17,173722,Closed,C002974,TBD,UAT,TBD,INSBFOS-8 TS01 - testing,3335,TBD,TBD
+INSBFOS-12,170182,Rejected,C002974,TBD,UAT,TBD,[INSBFOS-4][INSBFOS-9] Defect: Unable to disable ID in diamond,TBD,TBD,TBD
