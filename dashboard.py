@@ -220,14 +220,11 @@ def update_labels_graph(selectedDefectData, selectedFeatureData, selectedModifie
             if selectedTestTypeData:
                 selected_category = selectedTestTypeData['points'][0]['x']
                 filtered_data = filtered_data[filtered_data['Test Type'] == selected_category]
-            
-            # Combine the results from both "Labels" and "Labels.1" columns using "/" separator
-            combined_labels = filtered_data['Labels'] + '/' + filtered_data['Labels.1']
 
-            combined_label_counts = combined_labels.value_counts()
+            label_counts = filtered_data['Labels'].value_counts()
             
-            if not combined_label_counts.empty:
-                fig = px.bar(combined_label_counts, x=list(combined_label_counts.index), y=combined_label_counts.values,
+            if not label_counts.empty:
+                fig = px.bar(label_counts, x=list(label_counts.index), y=label_counts.values,
                             title="Label Distribution",
                             labels={'x': 'Label', 'y': 'Count'},
                             template='plotly_white')
