@@ -126,7 +126,7 @@ def update_feature_graph(selectedFeatureData, selectedTestTypeData):
         # Calculate the frequency of each feature type within the selected Quest Number and Test Type
         feature_counts = filtered_data['Feature Type'].value_counts()
         fig = px.bar(feature_counts, x=list(feature_counts.index), y=feature_counts.values,
-                     title=f"Test Type Distribution for Quest Number: {selected_summary} and Test Type: {selected_test}",
+                     title=f"Feature Type Distribution for Quest Number: {selected_summary} and Test Type: {selected_test}",
                      labels={'x': 'Feature Type', 'y': 'Count'},
                      template='plotly_white')
 
