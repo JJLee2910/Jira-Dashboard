@@ -149,10 +149,13 @@ def update_feature_graph(selectedFeatureData, selectedTestTypeData):
     Input('test-type-distribution-graph', 'selectedData')
 )
 def update_defect_graph(selectedFeatureData, selectedModifiedSummaryData, selectedTestTypeData):
+    selected_summary = ""
+    selected_category = ""
+    selected_feature = ""
+
     try:
         if selectedFeatureData is not None:
-            selected_summary = ""
-            selected_category = ""
+            selected_feature = selectedFeatureData['points'][0]['x']
 
             if selectedModifiedSummaryData is not None:
                 # Get the selected feature (Modified Summary)
@@ -170,13 +173,16 @@ def update_defect_graph(selectedFeatureData, selectedModifiedSummaryData, select
 
             if selected_category:
                 filtered_data = filtered_data[filtered_data['Test Type'] == selected_category]
+            
+            if selected_feature:
+                filtered_data = filtered_data[filtered_data['Feature Type'] == selected_feature]
 
             # calculate the frequency of the selected defect type
             defect_counts = filtered_data['Defect Type'].value_counts()
 
             # Create the bar chart for the Defect Type distribution
             fig = px.bar(defect_counts, x=list(defect_counts.index), y=defect_counts.values,
-                        title="Defect Type Distribution",
+                        title= f"Defect Type Distribution for Feature Type: {selected_feature} & Quest Number: {selected_summary} and Test Type: {selected_category}",
                         labels={'x': 'Defect Type', 'y': 'Count'},
                         template='plotly_white')
 
@@ -225,7 +231,7 @@ def update_labels_graph(selectedDefectData, selectedFeatureData, selectedModifie
             
             if not label_counts.empty:
                 fig = px.bar(label_counts, x=list(label_counts.index), y=label_counts.values,
-                            title="Label Distribution",
+                            title= f"Label Distribution for Defect Type: {selected_defect} & Feature Type: {selected_feature} & Quest Number: {selected_summary} and Test Type: {selected_category}",
                             labels={'x': 'Label', 'y': 'Count'},
                             template='plotly_white')
 
