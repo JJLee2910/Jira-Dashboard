@@ -3,8 +3,6 @@ import plotly.express as px
 import dash
 from dash import dcc, html, Input, Output
 import plotly.graph_objs as go
-import flask
-from flask import render_template
 
 # Read data from Excel file
 df = pd.read_csv('modified_new.csv')
@@ -251,21 +249,6 @@ def update_labels_graph(selectedDefectData, selectedFeatureData, selectedModifie
     except Exception as e:
         return {}
 
-# App login page
-@app.server.route('/')
-def login():
-    return render_template('login.html')
-
-# login route
-@app.server.route('/login', methods=['POST'])
-def login_post():
-    username = flask.request.form['username']
-    password = flask.request.form['password']
-
-    if username == 'admin' & password == 'admin123':
-        return flask.redirect('/dashboard')
-    else:
-        return "Invalid login credentials"
 
 # Run the app
 if __name__ == '__main__':
