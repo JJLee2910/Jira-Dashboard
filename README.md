@@ -7,8 +7,8 @@ Task allocated by company supervisor
 - Not often modifying/updating the source code
 
 # Access to Dashboard
-https://live-jira-dash-app.onrender.com
-username: admin\n
+https://live-jira-dash-app.onrender.com  
+username: admin
 password: admin123
 
 # Future Enhancement
