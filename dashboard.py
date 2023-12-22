@@ -18,11 +18,21 @@ server = app.server
 
 # Define the layout for the login page
 login_layout = html.Div([
-    html.H2('Login Page'),
-    dcc.Input(id='username-input', type='text', placeholder='Enter your username'),
-    dcc.Input(id='password-input', type='password', placeholder='Enter your password'),
-    html.Button('Login', id='login-button'),
-    html.Div(id='login-status')
+    html.Div([
+        html.H2('Login Page', style={'textAlign': 'center'}),
+        html.Div([
+            html.Div([
+                html.Label('Username:'),
+                dcc.Input(id='username-input', type='text', placeholder='Enter your username', style={'width': '100%'})
+            ], style={'marginBottom': '10px'}),
+            html.Div([
+                html.Label('Password:'),
+                dcc.Input(id='password-input', type='password', placeholder='Enter your password', style={'width': '100%'})
+            ], style={'marginBottom': '20px'}),
+            html.Button('Login', id='login-button', style={'width': '100%'}),
+            html.Div(id='login-status', style={'textAlign': 'center', 'marginTop': '10px'})
+        ], style={'maxWidth': '300px', 'margin': 'auto', 'padding': '20px', 'border': '1px solid #ddd', 'borderRadius': '5px', 'background': '#f9f9f9'})
+    ], style={'maxWidth': '500px', 'margin': 'auto', 'marginTop': '100px'})
 ])
 
 # Define the layout of the app
