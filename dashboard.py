@@ -1,31 +1,42 @@
 import pandas as pd
 import plotly.express as px
 import dash
-from dash import dcc, html, Input, Output
+from dash import dcc, html, Input, Output, State
 import plotly.graph_objs as go
+import dash_auth
+from dash import callback_context
 
 # Read data from Excel file
 df = pd.read_csv('modified_new.csv')
 
+VALID_USERNAME_PASSWORD_PAIRS = {'admin': 'admin123'}
+
 # Initialize the Dash app
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
+# auth = dash_auth.BasicAuth(app, VALID_USERNAME_PASSWORD_PAIRS)
 server = app.server
+
+# Define the layout for the login page
+login_layout = html.Div([
+    html.H2('Login Page'),
+    dcc.Input(id='username-input', type='text', placeholder='Enter your username'),
+    dcc.Input(id='password-input', type='password', placeholder='Enter your password'),
+    html.Button('Login', id='login-button'),
+    html.Div(id='login-status')
+])
 
 # Define the layout of the app
 app.layout = html.Div([
-    dcc.Graph(id='test-type-distribution-graph'),
-    dcc.Graph(id='modified-summary-distribution-graph'),
-    dcc.Graph(id='feature-type-distribution-graph'),
-    dcc.Graph(id='defect-distribution-graph'),
-    dcc.Graph(id='labels-distribution-graph'),
-    html.Div(id='selected-category'),
+    dcc.Location(id='url', refresh=False),
+    html.Div(id='page-content')
 ])
+
 
 # Define callback to update the test Type graph and display details
 @app.callback(
     Output('test-type-distribution-graph', 'figure'),
     Output('selected-category', 'children'),
-    Input('test-type-distribution-graph', 'selectedData')
+    Input('test-type-distribution-graph', 'selectedData'),
 )
 def update_test_type_graph(selectedData):
     selected_category = ""
@@ -249,6 +260,42 @@ def update_labels_graph(selectedDefectData, selectedFeatureData, selectedModifie
     except Exception as e:
         return {}
 
+# Callback to display the appropriate page (login or dashboard)
+@app.callback(Output('page-content', 'children'),
+              Input('url', 'pathname'))
+def display_page(pathname):
+    if pathname == '/login':
+        return login_layout
+    elif pathname == '/dashboard':
+        return html.Div([
+            html.H2('Dashboard Page'),
+            dcc.Graph(id='test-type-distribution-graph'),
+            dcc.Graph(id='modified-summary-distribution-graph'),
+            dcc.Graph(id='feature-type-distribution-graph'),
+            dcc.Graph(id='defect-distribution-graph'),
+            dcc.Graph(id='labels-distribution-graph'),
+            html.Div(id='selected-category'),
+        ])
+    else:
+        return html.Div('404 Page Not Found')
+
+@app.callback(
+    Output('url', 'pathname'),
+    Output('login-status', 'children'),
+    Input('login-button', 'n_clicks'),
+    State('username-input', 'value'),
+    State('password-input', 'value'),
+    prevent_initial_call=True
+)
+def handle_login(n_clicks, username, password):
+    if n_clicks is not None:
+        if username in VALID_USERNAME_PASSWORD_PAIRS and VALID_USERNAME_PASSWORD_PAIRS[username] == password:
+            return '/dashboard', 'Login successful. Redirecting to the dashboard...'
+        else:
+            return dash.no_update, 'Invalid credentials. Please try again.'
+    
+    # By default, return no update to avoid unwanted redirection
+    return dash.no_update, ''
 
 # Run the app
 if __name__ == '__main__':
