@@ -264,7 +264,7 @@ def update_labels_graph(selectedDefectData, selectedFeatureData, selectedModifie
 @app.callback(Output('page-content', 'children'),
               Input('url', 'pathname'))
 def display_page(pathname):
-    if pathname == '/login':
+    if pathname is None or pathname == '/' or pathname == '/login':
         return login_layout
     elif pathname == '/dashboard':
         return html.Div([
